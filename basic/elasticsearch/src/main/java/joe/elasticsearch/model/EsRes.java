@@ -7,10 +7,10 @@ import java.util.Map;
 /**
  * @author : Joe joe_fs@sina.com
  * @version V1.0
- * @Project: joe
- * @Package joe.elasticsearch.model
+
+
  * @note: ES 返回模型
- * @date Date : 2018年09月27日 16:14
+ * Date Date : 2018年09月27日 16:14
  */
 public class EsRes {
     /**

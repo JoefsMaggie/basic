@@ -13,10 +13,10 @@ import javax.validation.ValidatorFactory;
 /**
  * @author : Joe
  * @version V1.0
- * @Project: basic
- * @Package joe.core.validation
+
+
  * @note: 参数校验器的配置类
- * @date Date : 2018年09月03日 18:09
+ * Date Date : 2018年09月03日 18:09
  */
 @Configuration
 public class ValidatorConfiguration {

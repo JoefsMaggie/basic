@@ -7,7 +7,7 @@ import java.util.List;
 /**
  * @author : Joe joe_fs@sina.com
  * @version : V1.0
- * @Description : user service
+ * user service
  * Date:
  */
 public interface IUserService {

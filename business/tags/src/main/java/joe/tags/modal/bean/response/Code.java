@@ -7,10 +7,10 @@ import io.swagger.annotations.ApiModelProperty;
 /**
  * @author : Joe joe_fs@sina.com
  * @version V1.0
- * @Project: basic
- * @Package joe.tag.modal.bean.response
+
+
  * @note: 二维码类型
- * @date Date : 2018年09月10日 16:18
+ * Date Date : 2018年09月10日 16:18
  */
 @ApiModel(description = "二维码", parent = BasicNumModel.class)
 public class Code extends BasicNumModel<Code> {

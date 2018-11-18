@@ -17,10 +17,10 @@ import java.util.stream.Collectors;
 /**
  * @author : Joe joe_fs@sina.com
  * @version : V1.0
- * @Project : joe
- * @Package : joe.elasticsearch.helper.factory.agg
- * @Description : AGG Factory 用于生产 AggregationBuilder
- * @date : 2018年09月30日 14:37
+
+
+ * AGG Factory 用于生产 AggregationBuilder
+ * Date : 2018年09月30日 14:37
  */
 @Component
 public class AggFactories {

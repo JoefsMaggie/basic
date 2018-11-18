@@ -33,10 +33,10 @@ import java.util.stream.Collectors;
 /**
  * @author : Joe
  * @version V1.0
- * @Project: basic
- * @Package joe.tag.services
+
+
  * @note: 人群服务层
- * @date Date : 2018年09月03日 15:48
+ * Date Date : 2018年09月03日 15:48
  */
 @Service
 public class CrowdService {

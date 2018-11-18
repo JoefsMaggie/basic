@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 /**
  * @author : Joe joe_fs@sina.com
  * @version : V1.0
- * @Description : druid 配置属性类
+ * druid 配置属性类
  * Date: 2018/10/31
  */
 @Data

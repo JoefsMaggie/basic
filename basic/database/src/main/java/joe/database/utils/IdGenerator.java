@@ -3,7 +3,7 @@ package joe.database.utils;
 /**
  * @author : Joe joe_fs@sina.com
  * @version : V1.0
- * @Description : ID 生成器
+ * ID 生成器
  * Date: 2018/10/31
  */
 public interface IdGenerator {

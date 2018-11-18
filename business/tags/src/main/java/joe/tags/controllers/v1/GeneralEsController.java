@@ -24,10 +24,10 @@ import java.util.Map;
 /**
  * @author : Joe joe_fs@sina.com
  * @version V1.0
- * @Project: joe
- * @Package joe.tag.controllers.v1
+
+ 1
  * @note: ES 通用查询聚合控制层
- * @date Date : 2018年09月27日 17:01
+ * Date Date : 2018年09月27日 17:01
  */
 @Slf4j
 @RestController

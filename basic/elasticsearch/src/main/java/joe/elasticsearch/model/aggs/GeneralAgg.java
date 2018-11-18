@@ -15,10 +15,10 @@ import java.util.List;
 /**
  * @author : Joe joe_fs@sina.com
  * @version V1.0
- * @Project: joe
- * @Package joe.elasticsearch.model.aggs
+
+
  * @note: 通用聚合模型
- * @date Date : 2018年09月27日 15:52
+ * Date Date : 2018年09月27日 15:52
  */
 @Getter
 @Setter

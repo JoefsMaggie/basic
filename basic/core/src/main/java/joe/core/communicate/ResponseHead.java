@@ -8,10 +8,10 @@ import java.io.Serializable;
 /**
  * @author : Joe joe_fs@sina.com
  * @version V1.0
- * @Project: basic
- * @Package joe.core.communicate
+
+
  * @note: 返回头信息
- * @date Date : 2018年09月04日 15:59
+ * Date Date : 2018年09月04日 15:59
  */
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class ResponseHead implements Serializable {

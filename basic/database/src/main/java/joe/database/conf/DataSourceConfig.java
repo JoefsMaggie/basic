@@ -13,7 +13,7 @@ import java.sql.SQLException;
 /**
  * @author : Joe joe_fs@sina.com
  * @version : V1.0
- * @Description : mybatis 数据源
+ * mybatis 数据源
  * Date: 2018/10/29
  */
 @Configuration

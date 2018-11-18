@@ -25,10 +25,10 @@ import java.util.List;
 /**
  * @author : Joe
  * @version V1.0
- * @Project: basic
- * @Package joe.tag.controllers.v1
+
+ 1
  * @note: 人群控制层
- * @date Date : 2018年09月03日 11:57
+ * Date Date : 2018年09月03日 11:57
  */
 @RestController
 @ApiIgnore

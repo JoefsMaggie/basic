@@ -11,7 +11,7 @@ import java.net.UnknownHostException;
 /**
  * @author : Joe joe_fs@sina.com
  * @version : V1.0
- * @Description : snowflake 算法生成 ID
+ * snowflake 算法生成 ID
  * Date: 2018/10/31
  */
 @Component

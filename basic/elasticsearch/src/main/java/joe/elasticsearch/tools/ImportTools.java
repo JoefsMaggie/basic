@@ -34,7 +34,7 @@ import java.util.concurrent.Semaphore;
 /**
  * @author : Joe joe_fs@sina.com
  * @version : V1.0
- * @Description : ES 数据导入工具
+ * ES 数据导入工具
  * Date: 2018/10/31
  */
 public class ImportTools {

@@ -24,10 +24,10 @@ import javax.validation.Valid;
 /**
  * @author : Joe joe_fs@sina.com
  * @version V1.0
- * @Project: joe
- * @Package joe.tag.controllers.v1
+
+ 1
  * @note: ES 分页查询控制层
- * @date Date : 2018年09月20日 12:01
+ * Date Date : 2018年09月20日 12:01
  */
 @RestController
 @Api(tags = {"ES 分页查询"})

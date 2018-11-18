@@ -15,7 +15,7 @@ import java.util.List;
 /**
  * @author : Joe joe_fs@sina.com
  * @version : V1.0
- * @Description : user mapper
+ * user mapper
  * Date: 2018/10/29
  */
 public interface UserMapper {

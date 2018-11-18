@@ -13,10 +13,10 @@ import java.util.Set;
 /**
  * @author : Joe joe_fs@sina.com
  * @version V1.0
- * @Project: basic
- * @Package joe.core.exception
+
+
  * @note: 异常工具类
- * @date Date : 2018年09月04日 10:02
+ * Date Date : 2018年09月04日 10:02
  */
 public class ExceptionUtil {
     public static String getSimpleStackTrace(Throwable throwable) {

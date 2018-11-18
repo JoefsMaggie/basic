@@ -12,10 +12,10 @@ import java.io.*;
 /**
  * @author : Joe
  * @version V1.0
- * @Project: basic
- * @Package joe.core.filter
+
+
  * @note: 可重复使用数据包输入流
- * @date Date : 2018年09月03日 11:57
+ * Date Date : 2018年09月03日 11:57
  */
 @Order(Ordered.HIGHEST_PRECEDENCE + FilterOrder.REPEATABLE)
 public class RepeatableRequestFilter implements Filter {

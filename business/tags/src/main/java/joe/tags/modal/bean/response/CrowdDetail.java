@@ -10,10 +10,10 @@ import java.util.List;
 /**
  * @author : Joe joe_fs@sina.com
  * @version V1.0
- * @Project: basic
- * @Package joe.tag.modal.bean.response
+
+
  * @note: 人群分析详情dto
- * @date Date : 2018年09月10日 15:27
+ * Date Date : 2018年09月10日 15:27
  */
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @ApiModel(description = "人群详情模型")

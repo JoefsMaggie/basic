@@ -29,10 +29,10 @@ import java.util.concurrent.Executors;
 /**
  * @author : Joe joe_fs@sina.com
  * @version V1.0
- * @Project: joe
- * @Package joe.elasticsearch.helper
+
+
  * @note: ES 帮助类
- * @date Date : 2018年09月20日 14:25
+ * Date Date : 2018年09月20日 14:25
  */
 @Component
 public class EsHelper {

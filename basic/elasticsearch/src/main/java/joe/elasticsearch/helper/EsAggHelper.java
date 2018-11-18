@@ -15,10 +15,10 @@ import java.util.Map;
 /**
  * @author : Joe joe_fs@sina.com
  * @version : V1.0
- * @Project : joe
- * @Package : joe.elasticsearch.helper
- * @Description : ES 聚合帮助类
- * @date : 2018年09月30日 11:56
+
+
+ * ES 聚合帮助类
+ * Date2018年09月30日 11:56
  */
 public class EsAggHelper {
 

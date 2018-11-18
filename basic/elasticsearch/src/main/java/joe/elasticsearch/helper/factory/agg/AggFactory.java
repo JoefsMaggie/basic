@@ -19,10 +19,10 @@ import java.util.Objects;
 /**
  * @author : Joe joe_fs@sina.com
  * @version : V1.0
- * @Project : joe
- * @Package : joe.elasticsearch.helper.factory.agg
- * @Description : ES AggregationBuilder Factory
- * @date : 2018年09月30日 14:15
+
+
+ * ES AggregationBuilder Factory
+ * Date : 2018年09月30日 14:15
  */
 public interface AggFactory {
 

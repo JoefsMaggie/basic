@@ -5,10 +5,10 @@ import java.util.List;
 /**
  * @author : Joe joe_fs@sina.com
  * @version V1.0
- * @Project: joe
- * @Package joe.tag.modal.bean.response
+
+
  * @note: 人群详情积分直方图模型
- * @date Date : 2018年09月19日 19:41
+ * Date Date : 2018年09月19日 19:41
  */
 public class CrowdIntegral {
     private List<IntegralCount> distributions;

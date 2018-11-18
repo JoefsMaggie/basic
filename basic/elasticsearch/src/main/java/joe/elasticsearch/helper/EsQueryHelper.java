@@ -14,10 +14,10 @@ import java.util.Objects;
 /**
  * @author : Joe joe_fs@sina.com
  * @version : V1.0
- * @Project : joe
- * @Package : joe.elasticsearch.helper
- * @Description : ES 查询帮助类
- * @date : 2018年09月30日 11:52
+
+
+ * ES 查询帮助类
+ * Date : 2018年09月30日 11:52
  */
 public class EsQueryHelper {
     /**

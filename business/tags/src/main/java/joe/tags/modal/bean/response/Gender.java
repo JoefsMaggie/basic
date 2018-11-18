@@ -6,10 +6,10 @@ import io.swagger.annotations.ApiModelProperty;
 /**
  * @author : Joe joe_fs@sina.com
  * @version V1.0
- * @Project: basic
- * @Package joe.tag.modal.bean.response
+
+
  * @note: 性别
- * @date Date : 2018年09月10日 15:27
+ * Date Date : 2018年09月10日 15:27
  */
 @ApiModel(description = "性别", parent = BasicNumModel.class)
 public class Gender extends BasicNumModel<Gender> {

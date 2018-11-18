@@ -34,10 +34,10 @@ import java.util.stream.Collectors;
 /**
  * @author : Joe joe_fs@sina.com
  * @version V1.0
- * @Project: joe
- * @Package joe.tag.services
+
+
  * @note: ES 分页查询服务层
- * @date Date : 2018年09月20日 12:03
+ * Date Date : 2018年09月20日 12:03
  */
 @Service
 public class PagerService {

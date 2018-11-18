@@ -8,10 +8,10 @@ import javax.validation.Valid;
 /**
  * @author : Joe joe_fs@sina.com
  * @version : V1.0
- * @Project : joe
- * @Package : joe.elasticsearch.model.aggs
- * @Description : agg 请求模型
- * @date : 2018年09月30日 17:26
+
+
+ * agg 请求模型
+ * Date : 2018年09月30日 17:26
  */
 @ApiModel
 public class AggReq {

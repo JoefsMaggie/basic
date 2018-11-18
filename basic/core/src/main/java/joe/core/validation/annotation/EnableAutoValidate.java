@@ -8,10 +8,10 @@ import java.lang.annotation.*;
 /**
  * @author : Joe joe_fs@sina.com
  * @version V1.0
- * @Project: basic
- * @Package joe.core.validation.annotation
+
+
  * @note: 是否启动参数校验，以弃用，以默认开启
- * @date Date : 2018年09月04日 11:36
+ * Date Date : 2018年09月04日 11:36
  */
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)

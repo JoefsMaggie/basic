@@ -6,10 +6,10 @@ import io.swagger.annotations.ApiModelProperty;
 /**
  * @author : Joe joe_fs@sina.com
  * @version V1.0
- * @Project: joe
- * @Package joe.tag.modal.bean.response
+
+
  * @note: 时间 key value
- * @date Date : 2018年09月19日 14:56
+ * Date Date : 2018年09月19日 14:56
  */
 @ApiModel(parent = BasicNumModel.class)
 public class DateCount extends BasicNumModel<DateCount> {

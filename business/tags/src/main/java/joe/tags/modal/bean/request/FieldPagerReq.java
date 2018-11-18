@@ -14,10 +14,10 @@ import javax.validation.constraints.NotEmpty;
 /**
  * @author : Joe joe_fs@sina.com
  * @version V1.0
- * @Project: joe
- * @Package joe.tag.modal.bean.request
+
+
  * @note: 根据字段做分页的请求模型
- * @date Date : 2018年09月20日 09:55
+ * Date Date : 2018年09月20日 09:55
  */
 @Getter
 @Setter

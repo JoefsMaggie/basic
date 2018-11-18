@@ -21,8 +21,8 @@ import java.util.List;
 /**
  * @author : Joe joe_fs@sina.com
  * @version V1.0
- * @Project: joe
- * @Package : joe.tag.modal.utils
+
+
  * @note: 人群聚合生成类
  * Date : 2018年09月17日 16:39
  */

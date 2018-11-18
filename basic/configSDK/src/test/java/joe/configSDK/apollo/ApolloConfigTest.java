@@ -6,10 +6,10 @@ import org.junit.Test;
 /**
  * @author : Joe joe_fs@sina.com
  * @version : V1.0
- * @Project : joe
- * @Package : joe.config.apollo
- * @Description : 测试
- * @date : 2018年10月10日 15:10
+
+
+ * 测试
+ * Date : 2018年10月10日 15:10
  */
 public class ApolloConfigTest {
     @Before

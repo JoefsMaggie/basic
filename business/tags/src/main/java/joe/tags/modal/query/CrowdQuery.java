@@ -35,10 +35,10 @@ import java.util.List;
 /**
  * @author : Joe
  * @version V1.0
- * @Project: basic
- * @Package joe.tag.modal.query
+
+
  * @note: 人群查询
- * @date Date : 2018年09月03日 15:44
+ * Date Date : 2018年09月03日 15:44
  */
 @Component
 @RequiredArgsConstructor(onConstructor = @__(@Autowired))

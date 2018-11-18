@@ -12,10 +12,10 @@ import java.util.Arrays;
 /**
  * @author : Joe joe_fs@sina.com
  * @version : V1.0
- * @Project : joe
- * @Package : joe.config.apollo
- * @Description : apollo 配置修改监听
- * @date : 2018年10月15日 15:11
+
+
+ * apollo 配置修改监听
+ * Date : 2018年10月15日 15:11
  */
 public interface ApolloConfigListener {
     Logger LOGGER = LoggerFactory.getLogger(ApolloConfigListener.class);

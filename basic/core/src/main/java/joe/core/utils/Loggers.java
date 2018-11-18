@@ -6,10 +6,10 @@ import org.slf4j.LoggerFactory;
 /**
  * @author : Joe joe_fs@sina.com
  * @version V1.0
- * @Project: basic
- * @Package joe.core.utils
+
+
  * @note: 生成日志工具类
- * @date Date : 2018年09月04日 10:21
+ * Date Date : 2018年09月04日 10:21
  */
 public class Loggers {
     public static Logger getLogger() {

@@ -16,10 +16,10 @@ import java.io.IOException;
 /**
  * @author : Joe joe_fs@sina.com
  * @version : V1.0
- * @Project : joe
- * @Package : joe.core.filter
- * @Description : 通过修改 uri 的方式解决 swagger 不能测试问题
- * @date : 2018年09月29日 09:40
+
+
+ * 通过修改 uri 的方式解决 swagger 不能测试问题
+ * Date : 2018年09月29日 09:40
  */
 //@Component
 @Order(Ordered.HIGHEST_PRECEDENCE + FilterOrder.REPEATABLE - 1)

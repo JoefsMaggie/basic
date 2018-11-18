@@ -15,10 +15,10 @@ import java.util.List;
 /**
  * @author : Joe joe_fs@sina.com
  * @version V1.0
- * @Project: basic
- * @Package joe.tag.modal.bean.request
+
+
  * @note: 人群查询模型
- * @date Date : 2018年09月06日 16:24
+ * Date Date : 2018年09月06日 16:24
  */
 @ApiModel(description = "人群查询模型")
 public class CrowdQueryModel {

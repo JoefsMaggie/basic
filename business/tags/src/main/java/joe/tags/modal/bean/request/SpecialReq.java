@@ -13,8 +13,8 @@ import java.util.Map;
 /**
  * @author : Joe joe_fs@sina.com
  * @version : V1.0
- * @Description : 特殊处理
- * @date : 2018年10月23日 15:43
+ * 特殊处理
+ * Date : 2018年10月23日 15:43
  */
 @Data
 public class SpecialReq {

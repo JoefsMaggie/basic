@@ -13,10 +13,10 @@ import java.util.function.Consumer;
 /**
  * @author : Joe joe_fs@sina.com
  * @version V1.0
- * @Project: basic
- * @Package joe.tag.modal.utils
+
+
  * @note: 用于生成 QueryBuilder
- * @date Date : 2018年09月06日 16:00
+ * Date Date : 2018年09月06日 16:00
  */
 public class CrowdQueryHelper {
 

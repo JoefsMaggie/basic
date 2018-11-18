@@ -19,10 +19,10 @@ import java.util.List;
 /**
  * @author : Joe joe_fs@sina.com
  * @version V1.0
- * @Project: joe
- * @Package joe.tag.modal.bean.request
+
+
  * @note: 通用查询模型
- * @date Date : 2018年09月18日 18:44
+ * Date Date : 2018年09月18日 18:44
  */
 @Data
 @Builder

@@ -10,7 +10,7 @@ import java.util.regex.Matcher;
 /**
  * @author : Joe joe_fs@sina.com
  * @version : V1.0
- * @Description : 增强 mybatis update sql 的注解
+ * 增强 mybatis update sql 的注解
  * Date: 2018/10/30
  */
 public class SimpleUpdateLangDriver extends XMLLanguageDriver implements ILanguageDriver {

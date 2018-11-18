@@ -7,7 +7,7 @@ import java.util.regex.Pattern;
 /**
  * @author : Joe joe_fs@sina.com
  * @version : V1.0
- * @Description : mybatis 增强类接口
+ * mybatis 增强类接口
  * Date: 2018/10/30
  */
 public interface ILanguageDriver {

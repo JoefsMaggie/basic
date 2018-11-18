@@ -9,7 +9,7 @@ import java.util.Properties;
 /**
  * @author : Joe joe_fs@sina.com
  * @version : V1.0
- * @Description : mybatis 拦截器
+ * mybatis 拦截器
  * Date: 2018/10/30
  */
 @Intercepts({@Signature(

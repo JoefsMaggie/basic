@@ -20,10 +20,10 @@ import java.util.Objects;
 /**
  * @author : Joe joe_fs@sina.com
  * @version : V1.0
- * @Project : joe
- * @Package : joe.elasticsearch.helper.factory.agg
- * @Description : RANGE AggregationBuilder Factory
- * @date : 2018年09月30日 16:29
+
+
+ * RANGE AggregationBuilder Factory
+ * Date : 2018年09月30日 16:29
  */
 @Component
 @AggFactoryType(AggType.RANGE)

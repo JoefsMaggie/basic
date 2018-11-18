@@ -19,10 +19,10 @@ import java.util.Map;
 /**
  * @author : Joe
  * @version V1.0
- * @Project: basic
- * @Package joe.elasticsearch.client.conf
+
+
  * @note: ES TransportClient 生成
- * @date Date : 2018年09月03日 15:02
+ * Date Date : 2018年09月03日 15:02
  */
 @Configuration
 public class EsClient {

@@ -15,10 +15,10 @@ import java.io.IOException;
 /**
  * @author : Joe
  * @version V1.0
- * @Project: basic
- * @Package joe.core.exception
+
+
  * @note: 全局异常处理器
- * @date Date : 2018年09月04日 9:50
+ * Date Date : 2018年09月04日 9:50
  */
 @ControllerAdvice
 public class GlobalExceptionHandler {

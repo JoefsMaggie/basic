@@ -10,10 +10,10 @@ import org.springframework.stereotype.Component;
 /**
  * @author : Joe
  * @version V1.0
- * @Project: basic
- * @Package joe.elasticsearch.client.conf
+
+
  * @note: ES 需要的一些配置
- * @date Date : 2018年09月03日 16:54
+ * Date Date : 2018年09月03日 16:54
  */
 @Component
 @EnableApolloConfig(EsConfig.NAMESPACE)

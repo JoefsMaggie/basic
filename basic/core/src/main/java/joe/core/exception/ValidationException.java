@@ -14,10 +14,10 @@ import java.util.stream.Collectors;
 /**
  * @author : Joe joe_fs@sina.com
  * @version V1.0
- * @Project: basic
- * @Package joe.core.exception
+
+
  * @note: 校验器
- * @date Date : 2018年09月04日 10:02
+ * Date Date : 2018年09月04日 10:02
  */
 public class ValidationException extends RuntimeException {
     private List<ValidationDetail> details = new ArrayList<>(10);

@@ -17,7 +17,7 @@ import java.util.List;
 /**
  * @author : Joe joe_fs@sina.com
  * @version : V1.0
- * @Description : user controller
+ * user controller
  * Date: 2018/10/29
  */
 @RestController

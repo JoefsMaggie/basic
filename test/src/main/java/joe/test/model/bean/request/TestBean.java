@@ -11,10 +11,10 @@ import java.util.List;
 /**
  * @author : Joe
  * @version V1.0
- * @Project: basic
- * @Package joe.tag.modal.bean.request
+
+
  * @note: 测试用bean
- * @date Date : 2018年09月03日 13:48
+ * Date Date : 2018年09月03日 13:48
  */
 public class TestBean {
     @Length(min = 1, max = 5)

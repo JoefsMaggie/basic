@@ -22,10 +22,10 @@ import java.util.Map;
 /**
  * @author : Joe joe_fs@sina.com
  * @version V1.0
- * @Project: basic
- * @Package joe.core.exception
+
+
  * @note: json工具类，基于jackson
- * @date Date : 2018年09月04日 10:02
+ * Date Date : 2018年09月04日 10:02
  */
 public abstract class Jackson {
     private static ObjectMapper objectMapper = new ObjectMapper();

@@ -12,10 +12,10 @@ import org.springframework.stereotype.Component;
 /**
  * @author : Joe joe_fs@sina.com
  * @version : V1.0
- * @Project : joe
- * @Package : joe.test.apollo
- * @Description : 测试监听
- * @date : 2018年10月15日 12:02
+
+
+ * 测试监听
+ * Date : 2018年10月15日 12:02
  */
 @Component
 @EnableApolloConfig(ApolloConfiguration.NAMESPACE)

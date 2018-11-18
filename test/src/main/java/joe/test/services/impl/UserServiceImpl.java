@@ -13,7 +13,7 @@ import java.util.List;
 /**
  * @author : Joe joe_fs@sina.com
  * @version : V1.0
- * @Description : user service impl
+ * user service impl
  * Date: 2018/10/29
  */
 @Service

@@ -8,7 +8,7 @@ import javax.servlet.annotation.WebServlet;
 /**
  * @author : Joe joe_fs@sina.com
  * @version : V1.0
- * @Description : druid servlet
+ * druid servlet
  * Date: 2018/10/30
  */
 @WebServlet(urlPatterns = "/druid/*",

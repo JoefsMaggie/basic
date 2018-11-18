@@ -14,10 +14,10 @@ import java.util.Set;
 /**
  * @author : Joe
  * @version V1.0
- * @Project: basic
- * @Package joe.core.log
+
+
  * @note: 错误日志过滤器
- * @date Date : 2018年09月03日 11:57
+ * Date Date : 2018年09月03日 11:57
  */
 public class ThrowableFilter extends TurboFilter {
 

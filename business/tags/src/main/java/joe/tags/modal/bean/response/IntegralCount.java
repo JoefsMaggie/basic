@@ -6,10 +6,10 @@ import io.swagger.annotations.ApiModelProperty;
 /**
  * @author : Joe joe_fs@sina.com
  * @version V1.0
- * @Project: joe
- * @Package joe.tag.modal.bean.response
+
+
  * @note: 积分分布
- * @date Date : 2018年09月19日 15:06
+ * Date Date : 2018年09月19日 15:06
  */
 @ApiModel(parent = BasicNumModel.class)
 public class IntegralCount extends BasicNumModel<IntegralCount> {

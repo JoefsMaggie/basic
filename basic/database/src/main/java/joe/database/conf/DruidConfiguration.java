@@ -13,7 +13,7 @@ import org.springframework.context.annotation.Configuration;
 /**
  * @author : Joe joe_fs@sina.com
  * @version : V1.0
- * @Description : Druid 配置
+ * Druid 配置
  * Date: 2018/10/26
  */
 @Configuration

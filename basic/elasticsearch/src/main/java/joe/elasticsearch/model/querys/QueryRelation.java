@@ -12,10 +12,10 @@ import java.util.List;
 /**
  * @author : Joe joe_fs@sina.com
  * @version V1.0
- * @Project: joe
- * @Package joe.tag.modal.bean.request
+
+
  * @note: ES 通用查询关系
- * @date Date : 2018年09月18日 13:46
+ * Date Date : 2018年09月18日 13:46
  */
 @Data
 @Builder

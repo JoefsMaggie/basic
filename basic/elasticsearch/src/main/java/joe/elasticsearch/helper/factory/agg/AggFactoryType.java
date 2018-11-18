@@ -11,10 +11,10 @@ import static java.lang.annotation.RetentionPolicy.RUNTIME;
 /**
  * @author : Joe joe_fs@sina.com
  * @version : V1.0
- * @Project : joe
- * @Package : joe.elasticsearch.helper.factory.agg
- * @Description : 用于标识是哪类聚合类型
- * @date : 2018年09月30日 15:25
+
+
+ * 用于标识是哪类聚合类型
+ * Date : 2018年09月30日 15:25
  */
 @Target({TYPE})
 @Retention(RUNTIME)

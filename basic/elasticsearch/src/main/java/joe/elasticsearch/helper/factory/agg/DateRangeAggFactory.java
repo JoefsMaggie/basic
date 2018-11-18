@@ -10,10 +10,10 @@ import org.springframework.stereotype.Component;
 /**
  * @author : Joe joe_fs@sina.com
  * @version : V1.0
- * @Project : joe
- * @Package : joe.elasticsearch.helper.factory.agg
- * @Description : DATE_RANGE AggregationBuilder Factory
- * @date : 2018年09月30日 16:29
+
+
+ * DATE_RANGE AggregationBuilder Factory
+ * Date : 2018年09月30日 16:29
  */
 @Component
 @AggFactoryType(AggType.DATE_RANGE)

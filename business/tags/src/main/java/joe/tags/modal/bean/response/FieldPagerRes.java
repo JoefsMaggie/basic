@@ -10,10 +10,10 @@ import java.util.Map;
 /**
  * @author : Joe joe_fs@sina.com
  * @version V1.0
- * @Project: joe
- * @Package joe.tag.modal.bean.response
+
+
  * @note: 根据字段做分页查询的数据返回模型
- * @date Date : 2018年09月20日 10:00
+ * Date Date : 2018年09月20日 10:00
  */
 @ApiModel
 public class FieldPagerRes {

@@ -11,10 +11,10 @@ import org.springframework.stereotype.Component;
 /**
  * @author : Joe joe_fs@sina.com
  * @version : V1.0
- * @Project : joe
- * @Package : joe.elasticsearch.helper.factory.agg
- * @Description : ValueCount AggregationBuilder Factory
- * @date : 2018年09月30日 14:35
+
+
+ * ValueCount AggregationBuilder Factory
+ * Date : 2018年09月30日 14:35
  */
 @Component
 @AggFactoryType(AggType.COUNT)

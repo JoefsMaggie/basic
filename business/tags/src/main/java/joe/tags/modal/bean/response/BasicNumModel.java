@@ -9,10 +9,10 @@ import java.text.DecimalFormat;
 /**
  * @author : Joe joe_fs@sina.com
  * @version V1.0
- * @Project: basic
- * @Package joe.tag.modal.bean.response
+
+
  * @note: 基础数量模型
- * @date Date : 2018年09月10日 16:12
+ * Date Date : 2018年09月10日 16:12
  */
 @ApiModel()
 @JsonInclude(JsonInclude.Include.NON_NULL)

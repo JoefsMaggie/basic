@@ -12,10 +12,10 @@ import java.util.List;
 /**
  * @author : Joe joe_fs@sina.com
  * @version V1.0
- * @Project: joe
- * @Package joe.tag.modal.bean.request
+
+
  * @note: 通用查询聚合模型
- * @date Date : 2018年09月27日 16:55
+ * Date Date : 2018年09月27日 16:55
  */
 @Data
 @ApiModel()

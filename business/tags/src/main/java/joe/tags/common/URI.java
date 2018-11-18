@@ -3,10 +3,10 @@ package joe.tags.common;
 /**
  * @author : Joe joe_fs@sina.com
  * @version V1.0
- * @Project: basic
- * @Package joe.tag.common
+
+
  * @note: URI
- * @date Date : 2018年09月05日 11:22
+ * Date Date : 2018年09月05日 11:22
  */
 public interface URI {
     interface V1 {

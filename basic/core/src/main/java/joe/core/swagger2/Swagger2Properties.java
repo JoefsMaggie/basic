@@ -10,10 +10,10 @@ import org.springframework.stereotype.Component;
 /**
  * @author : Joe joe_fs@sina.com
  * @version V1.0
- * @Project: joe
- * @Package joe.core.swagger2
+
+ 2
  * @note: swagger配置信息类
- * @date Date : 2018年09月14日 15:37
+ * Date Date : 2018年09月14日 15:37
  */
 @Component
 @EnableApolloConfig(Swagger2Properties.NAMESPACE)

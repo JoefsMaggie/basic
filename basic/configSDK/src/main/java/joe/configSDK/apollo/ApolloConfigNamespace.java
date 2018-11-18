@@ -19,10 +19,10 @@ import java.util.stream.Collectors;
 /**
  * @author : Joe joe_fs@sina.com
  * @version : V1.0
- * @Project : joe
- * @Package : joe.config.apollo
- * @Description : 根据命名空间获取配置信息
- * @date : 2018年10月11日 17:26
+
+
+ * 根据命名空间获取配置信息
+ * Date : 2018年10月11日 17:26
  */
 public class ApolloConfigNamespace {
 

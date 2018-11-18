@@ -12,10 +12,10 @@ import java.util.List;
 /**
  * @author : Joe joe_fs@sina.com
  * @version V1.0
- * @Project: joe
- * @Package joe.tag.modal.query
+
+
  * @note: hbase 查询
- * @date Date : 2018年09月20日 16:53
+ * Date Date : 2018年09月20日 16:53
  */
 @Component
 public class HbaseQuery {

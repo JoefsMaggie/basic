@@ -23,10 +23,10 @@ import java.util.Objects;
 /**
  * @author : Joe joe_fs@sina.com
  * @version V1.0
- * @Project: basic
- * @Package joe.core.security
+
+
  * @note: 安全校验，对 key 做校验
- * @date Date : 2018年09月05日 11:36
+ * Date Date : 2018年09月05日 11:36
  */
 @Aspect
 @Component

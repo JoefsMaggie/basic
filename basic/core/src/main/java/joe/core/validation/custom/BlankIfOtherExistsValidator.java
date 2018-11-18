@@ -21,10 +21,10 @@ import java.util.stream.Stream;
 /**
  * @author : Joe joe_fs@sina.com
  * @version V1.0
- * @Project: basic
- * @Package joe.core.validation.custom
+
+
  * @note: 参数不为空校验
- * @date Date : 2018年09月07日 13:51
+ * Date Date : 2018年09月07日 13:51
  */
 public class BlankIfOtherExistsValidator<T> implements ConstraintValidator<BlankIfOtherExists, T> {
     private BlankIfOtherExists blankIfOtherExists;

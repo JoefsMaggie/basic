@@ -17,10 +17,10 @@ import java.util.Map;
 /**
  * @author : Joe joe_fs@sina.com
  * @version V1.0
- * @Project: joe
- * @Package joe.tag.services
+
+
  * @note: ES 通用查询聚合服务层
- * @date Date : 2018年09月27日 17:04
+ * Date Date : 2018年09月27日 17:04
  */
 @Service
 public class GeneralEsService {

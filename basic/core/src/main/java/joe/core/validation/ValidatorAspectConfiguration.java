@@ -8,10 +8,10 @@ import org.springframework.context.annotation.Configuration;
 /**
  * @author : Joe joe_fs@sina.com
  * @version V1.0
- * @Project: basic
- * @Package joe.core.validation
+
+
  * @note: 参数校验需要的 bean 的配置类
- * @date Date : 2018年09月04日 11:35
+ * Date Date : 2018年09月04日 11:35
  */
 @Configuration
 public class ValidatorAspectConfiguration {

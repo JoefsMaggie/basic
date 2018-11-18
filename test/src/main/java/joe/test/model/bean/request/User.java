@@ -8,7 +8,7 @@ import javax.validation.constraints.NotBlank;
 /**
  * @author : Joe joe_fs@sina.com
  * @version : V1.0
- * @Description : user
+ * user
  * Date: 2018/10/29
  */
 @Data

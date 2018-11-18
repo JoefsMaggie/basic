@@ -5,10 +5,10 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 /**
  * @author : Joe joe_fs@sina.com
  * @version V1.0
- * @Project: joe
- * @Package joe.tag.modal.bean.response
+
+
  * @note: 人群详情订单数据模型
- * @date Date : 2018年09月19日 19:40
+ * Date Date : 2018年09月19日 19:40
  */
 public class CrowdOrder {
     @JsonProperty("buy_person_count")

@@ -6,10 +6,10 @@ import org.apache.commons.lang3.StringUtils;
 /**
  * @author : Joe joe_fs@sina.com
  * @version V1.0
- * @Project: basic
- * @Package joe.tag.common
+
+
  * @note: 数据度量指标
- * @date Date : 2018年09月07日 10:22
+ * Date Date : 2018年09月07日 10:22
  */
 public enum Metric {
     /**

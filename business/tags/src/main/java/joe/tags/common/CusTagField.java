@@ -3,10 +3,7 @@ package joe.tags.common;
 /**
  * @author : Joe joe_fs@sina.com
  * @version V1.0
- * @Project: basic
- * @Package joe.tag.common
- * @note: ES 字段
- * @date Date : 2018年09月05日 16:36
+ * Date : 2018年09月05日 16:36
  */
 public interface CusTagField {
     String ROW_KEY = "rowkey";

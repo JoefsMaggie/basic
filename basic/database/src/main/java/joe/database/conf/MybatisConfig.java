@@ -22,7 +22,7 @@ import javax.sql.DataSource;
 /**
  * @author : Joe joe_fs@sina.com
  * @version : V1.0
- * @Description : mybatis 配置
+ * mybatis 配置
  * Date: 2018/10/29
  */
 @Configuration

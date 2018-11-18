@@ -27,10 +27,10 @@ import java.util.stream.Collectors;
 /**
  * @author : Joe joe_fs@sina.com
  * @version V1.0
- * @Project: joe
- * @Package joe.tag.modal.query
+
+
  * @note: 分页 ES 查询层
- * @date Date : 2018年09月20日 12:05
+ * Date Date : 2018年09月20日 12:05
  */
 @Component
 public class PagerQuery {

@@ -24,10 +24,10 @@ import java.util.Objects;
 /**
  * @author : Joe joe_fs@sina.com
  * @version V1.0
- * @Project: basic
- * @Package joe.core.validation
+
+
  * @note: 安全校验
- * @date Date : 2018年09月04日 10:46
+ * Date Date : 2018年09月04日 10:46
  */
 @Aspect
 @Order()

@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 /**
  * @author : Joe joe_fs@sina.com
  * @version : V1.0
- * @Description : 配置 mybatis 的扫描路径
+ * 配置 mybatis 的扫描路径
  * Date: 2018/10/29
  */
 //@Component

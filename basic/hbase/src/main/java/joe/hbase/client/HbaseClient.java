@@ -9,10 +9,10 @@ import org.springframework.data.hadoop.hbase.HbaseTemplate;
 /**
  * @author : Joe joe_fs@sina.com
  * @version V1.0
- * @Project: joe
- * @Package joe.hbase.client
+
+
  * @note: hbase
- * @date Date : 2018年09月20日 9:20
+ * Date Date : 2018年09月20日 9:20
  */
 @Configuration
 public class HbaseClient {

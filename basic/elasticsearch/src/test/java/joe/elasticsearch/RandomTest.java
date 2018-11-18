@@ -18,7 +18,7 @@ import java.util.stream.Stream;
 /**
  * @author : Joe joe_fs@sina.com
  * @version : V1.0
- * @Description : Random 性能测试
+ * Random 性能测试
  * Date: 2018/10/31
  */
 public class RandomTest {

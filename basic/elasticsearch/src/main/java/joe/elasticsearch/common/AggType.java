@@ -6,10 +6,10 @@ import org.apache.commons.lang3.StringUtils;
 /**
  * @author : Joe joe_fs@sina.com
  * @version V1.0
- * @Project: joe
- * @Package joe.elasticsearch.model
+
+
  * @note: 通用聚合类型
- * @date Date : 2018年09月25日 09:56
+ * Date Date : 2018年09月25日 09:56
  */
 public enum AggType {
     COUNT,

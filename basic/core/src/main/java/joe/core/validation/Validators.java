@@ -16,7 +16,7 @@ import java.util.Set;
  *
  * @author chenwenlong@foresee.com.cn
  * @version 1.0
- * @date 2017年04月18日
+ * Date 2017年04月18日
  */
 public class Validators {
 

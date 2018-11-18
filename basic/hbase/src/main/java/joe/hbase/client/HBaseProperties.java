@@ -8,10 +8,10 @@ import java.util.Map;
 /**
  * @author : Joe joe_fs@sina.com
  * @version V1.0
- * @Project: joe
- * @Package joe.hbase.client
+
+
  * @note: hbase 配置信息类
- * @date Date : 2018年09月20日 9:24
+ * Date Date : 2018年09月20日 9:24
  */
 @Component
 @ConfigurationProperties("hbase")

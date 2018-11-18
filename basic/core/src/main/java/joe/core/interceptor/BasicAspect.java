@@ -19,7 +19,7 @@ import java.util.Objects;
 /**
  * @author : Joe joe_fs@sina.com
  * @version : V1.0
- * @Description : 基础切面拦截
+ * 基础切面拦截
  * Date: 2018/10/30
  */
 @Aspect

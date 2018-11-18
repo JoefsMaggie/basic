@@ -15,10 +15,10 @@ import java.util.stream.Stream;
 /**
  * @author : Joe joe_fs@sina.com
  * @version : V1.0
- * @Project : joe
- * @Package : joe.elasticsearch.helper.factory.agg
- * @Description : TOP_HITS AggregationBuilder Factory
- * @date : 2018年09月30日 16:29
+
+
+ * TOP_HITS AggregationBuilder Factory
+ * Date : 2018年09月30日 16:29
  */
 @Component
 @AggFactoryType(AggType.TOP_HITS)
