@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>Joe</groupId>
+        <artifactId>joe.basic</artifactId>
+        <version>0.0.1</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>joe.core</artifactId>
+    <version>0.0.1</version>
+    <packaging>jar</packaging>
+
+    <name>joe.core</name>
+    <description>
+        核心包
+        业务项目都必须依赖此包
+        其中包含前端数据的校验和注入，切面校验参数安全，Swagger2 配置等
+    </description>
+
+    <properties>
+        <jackson>2.9.6</jackson>
+        <aspectj>1.6.11</aspectj>
+        <springfox-swagger2>2.9.2</springfox-swagger2>
+    </properties>
+
+
+    <dependencies>
+        <dependency>
+            <groupId>Joe</groupId>
+            <artifactId>joe.config</artifactId>
+            <version>0.0.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-aop</artifactId>
+        </dependency>
+        <!--使用AspectJ方式注解需要相应的包-->
+        <!--<dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjrt</artifactId>
+            <version>${aspectj}</version>
+        </dependency>
+        &lt;!&ndash;使用AspectJ方式注解需要相应的包&ndash;&gt;
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjweaver</artifactId>
+            <version>${aspectj}</version>
+        </dependency>-->
+        <!-- S swagger -->
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+            <version>${springfox-swagger2}</version>
+            <exclusions>
+                <exclusion>
+                    <artifactId>guava</artifactId>
+                    <groupId>com.google.guava</groupId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger-ui</artifactId>
+            <version>${springfox-swagger2}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>${jackson}</version>
+        </dependency>
+        <!-- E swagger -->
+    </dependencies>
+
+</project>

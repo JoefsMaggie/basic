@@ -1,0 +1,3023 @@
+{
+	"settings": {
+		"index.mapping.total_fields.limit": "2000",
+		"refresh_interval": "-1",
+		"number_of_shards": "4",
+		"number_of_replicas": "0"
+	},
+	"mappings": {
+		"cloth": {
+		    "_all": {
+               "enabled": false
+             },
+			"properties": {
+				"field01": {
+					"type": "long"
+				},
+				"field1": {
+					"type": "float"
+				},
+				"field10": {
+					"type": "keyword"
+				},
+				"field100": {
+					"type": "keyword"
+				},
+				"field1000": {
+					"type": "keyword"
+				},
+				"field101": {
+					"type": "float"
+				},
+				"field102": {
+					"type": "keyword"
+				},
+				"field103": {
+					"type": "float"
+				},
+				"field104": {
+					"type": "keyword"
+				},
+				"field105": {
+					"type": "float"
+				},
+				"field106": {
+					"type": "keyword"
+				},
+				"field107": {
+					"type": "float"
+				},
+				"field108": {
+					"type": "keyword"
+				},
+				"field109": {
+					"type": "float"
+				},
+				"field11": {
+					"type": "float"
+				},
+				"field110": {
+					"type": "keyword"
+				},
+				"field111": {
+					"type": "float"
+				},
+				"field112": {
+					"type": "keyword"
+				},
+				"field113": {
+					"type": "float"
+				},
+				"field114": {
+					"type": "keyword"
+				},
+				"field115": {
+					"type": "float"
+				},
+				"field116": {
+					"type": "keyword"
+				},
+				"field117": {
+					"type": "float"
+				},
+				"field118": {
+					"type": "keyword"
+				},
+				"field119": {
+					"type": "float"
+				},
+				"field12": {
+					"type": "keyword"
+				},
+				"field120": {
+					"type": "keyword"
+				},
+				"field121": {
+					"type": "float"
+				},
+				"field122": {
+					"type": "keyword"
+				},
+				"field123": {
+					"type": "float"
+				},
+				"field124": {
+					"type": "keyword"
+				},
+				"field125": {
+					"type": "float"
+				},
+				"field126": {
+					"type": "keyword"
+				},
+				"field127": {
+					"type": "float"
+				},
+				"field128": {
+					"type": "keyword"
+				},
+				"field129": {
+					"type": "float"
+				},
+				"field13": {
+					"type": "float"
+				},
+				"field130": {
+					"type": "keyword"
+				},
+				"field131": {
+					"type": "float"
+				},
+				"field132": {
+					"type": "keyword"
+				},
+				"field133": {
+					"type": "float"
+				},
+				"field134": {
+					"type": "keyword"
+				},
+				"field135": {
+					"type": "float"
+				},
+				"field136": {
+					"type": "keyword"
+				},
+				"field137": {
+					"type": "float"
+				},
+				"field138": {
+					"type": "keyword"
+				},
+				"field139": {
+					"type": "float"
+				},
+				"field14": {
+					"type": "keyword"
+				},
+				"field140": {
+					"type": "keyword"
+				},
+				"field141": {
+					"type": "float"
+				},
+				"field142": {
+					"type": "keyword"
+				},
+				"field143": {
+					"type": "float"
+				},
+				"field144": {
+					"type": "keyword"
+				},
+				"field145": {
+					"type": "float"
+				},
+				"field146": {
+					"type": "keyword"
+				},
+				"field147": {
+					"type": "float"
+				},
+				"field148": {
+					"type": "keyword"
+				},
+				"field149": {
+					"type": "float"
+				},
+				"field15": {
+					"type": "float"
+				},
+				"field150": {
+					"type": "keyword"
+				},
+				"field151": {
+					"type": "float"
+				},
+				"field152": {
+					"type": "keyword"
+				},
+				"field153": {
+					"type": "float"
+				},
+				"field154": {
+					"type": "keyword"
+				},
+				"field155": {
+					"type": "float"
+				},
+				"field156": {
+					"type": "keyword"
+				},
+				"field157": {
+					"type": "float"
+				},
+				"field158": {
+					"type": "keyword"
+				},
+				"field159": {
+					"type": "float"
+				},
+				"field16": {
+					"type": "keyword"
+				},
+				"field160": {
+					"type": "keyword"
+				},
+				"field161": {
+					"type": "float"
+				},
+				"field162": {
+					"type": "keyword"
+				},
+				"field163": {
+					"type": "float"
+				},
+				"field164": {
+					"type": "keyword"
+				},
+				"field165": {
+					"type": "float"
+				},
+				"field166": {
+					"type": "keyword"
+				},
+				"field167": {
+					"type": "float"
+				},
+				"field168": {
+					"type": "keyword"
+				},
+				"field169": {
+					"type": "float"
+				},
+				"field17": {
+					"type": "float"
+				},
+				"field170": {
+					"type": "keyword"
+				},
+				"field171": {
+					"type": "float"
+				},
+				"field172": {
+					"type": "keyword"
+				},
+				"field173": {
+					"type": "float"
+				},
+				"field174": {
+					"type": "keyword"
+				},
+				"field175": {
+					"type": "float"
+				},
+				"field176": {
+					"type": "keyword"
+				},
+				"field177": {
+					"type": "float"
+				},
+				"field178": {
+					"type": "keyword"
+				},
+				"field179": {
+					"type": "float"
+				},
+				"field18": {
+					"type": "keyword"
+				},
+				"field180": {
+					"type": "keyword"
+				},
+				"field181": {
+					"type": "float"
+				},
+				"field182": {
+					"type": "keyword"
+				},
+				"field183": {
+					"type": "float"
+				},
+				"field184": {
+					"type": "keyword"
+				},
+				"field185": {
+					"type": "float"
+				},
+				"field186": {
+					"type": "keyword"
+				},
+				"field187": {
+					"type": "float"
+				},
+				"field188": {
+					"type": "keyword"
+				},
+				"field189": {
+					"type": "float"
+				},
+				"field19": {
+					"type": "float"
+				},
+				"field190": {
+					"type": "keyword"
+				},
+				"field191": {
+					"type": "float"
+				},
+				"field192": {
+					"type": "keyword"
+				},
+				"field193": {
+					"type": "float"
+				},
+				"field194": {
+					"type": "keyword"
+				},
+				"field195": {
+					"type": "float"
+				},
+				"field196": {
+					"type": "keyword"
+				},
+				"field197": {
+					"type": "float"
+				},
+				"field198": {
+					"type": "keyword"
+				},
+				"field199": {
+					"type": "float"
+				},
+				"field2": {
+					"type": "keyword"
+				},
+				"field20": {
+					"type": "keyword"
+				},
+				"field200": {
+					"type": "keyword"
+				},
+				"field201": {
+					"type": "float"
+				},
+				"field202": {
+					"type": "keyword"
+				},
+				"field203": {
+					"type": "float"
+				},
+				"field204": {
+					"type": "keyword"
+				},
+				"field205": {
+					"type": "float"
+				},
+				"field206": {
+					"type": "keyword"
+				},
+				"field207": {
+					"type": "float"
+				},
+				"field208": {
+					"type": "keyword"
+				},
+				"field209": {
+					"type": "float"
+				},
+				"field21": {
+					"type": "float"
+				},
+				"field210": {
+					"type": "keyword"
+				},
+				"field211": {
+					"type": "float"
+				},
+				"field212": {
+					"type": "keyword"
+				},
+				"field213": {
+					"type": "float"
+				},
+				"field214": {
+					"type": "keyword"
+				},
+				"field215": {
+					"type": "float"
+				},
+				"field216": {
+					"type": "keyword"
+				},
+				"field217": {
+					"type": "float"
+				},
+				"field218": {
+					"type": "keyword"
+				},
+				"field219": {
+					"type": "float"
+				},
+				"field22": {
+					"type": "keyword"
+				},
+				"field220": {
+					"type": "keyword"
+				},
+				"field221": {
+					"type": "float"
+				},
+				"field222": {
+					"type": "keyword"
+				},
+				"field223": {
+					"type": "float"
+				},
+				"field224": {
+					"type": "keyword"
+				},
+				"field225": {
+					"type": "float"
+				},
+				"field226": {
+					"type": "keyword"
+				},
+				"field227": {
+					"type": "float"
+				},
+				"field228": {
+					"type": "keyword"
+				},
+				"field229": {
+					"type": "float"
+				},
+				"field23": {
+					"type": "float"
+				},
+				"field230": {
+					"type": "keyword"
+				},
+				"field231": {
+					"type": "float"
+				},
+				"field232": {
+					"type": "keyword"
+				},
+				"field233": {
+					"type": "float"
+				},
+				"field234": {
+					"type": "keyword"
+				},
+				"field235": {
+					"type": "float"
+				},
+				"field236": {
+					"type": "keyword"
+				},
+				"field237": {
+					"type": "float"
+				},
+				"field238": {
+					"type": "keyword"
+				},
+				"field239": {
+					"type": "float"
+				},
+				"field24": {
+					"type": "keyword"
+				},
+				"field240": {
+					"type": "keyword"
+				},
+				"field241": {
+					"type": "float"
+				},
+				"field242": {
+					"type": "keyword"
+				},
+				"field243": {
+					"type": "float"
+				},
+				"field244": {
+					"type": "keyword"
+				},
+				"field245": {
+					"type": "float"
+				},
+				"field246": {
+					"type": "keyword"
+				},
+				"field247": {
+					"type": "float"
+				},
+				"field248": {
+					"type": "keyword"
+				},
+				"field249": {
+					"type": "float"
+				},
+				"field25": {
+					"type": "float"
+				},
+				"field250": {
+					"type": "keyword"
+				},
+				"field251": {
+					"type": "float"
+				},
+				"field252": {
+					"type": "keyword"
+				},
+				"field253": {
+					"type": "float"
+				},
+				"field254": {
+					"type": "keyword"
+				},
+				"field255": {
+					"type": "float"
+				},
+				"field256": {
+					"type": "keyword"
+				},
+				"field257": {
+					"type": "float"
+				},
+				"field258": {
+					"type": "keyword"
+				},
+				"field259": {
+					"type": "float"
+				},
+				"field26": {
+					"type": "keyword"
+				},
+				"field260": {
+					"type": "keyword"
+				},
+				"field261": {
+					"type": "float"
+				},
+				"field262": {
+					"type": "keyword"
+				},
+				"field263": {
+					"type": "float"
+				},
+				"field264": {
+					"type": "keyword"
+				},
+				"field265": {
+					"type": "float"
+				},
+				"field266": {
+					"type": "keyword"
+				},
+				"field267": {
+					"type": "float"
+				},
+				"field268": {
+					"type": "keyword"
+				},
+				"field269": {
+					"type": "float"
+				},
+				"field27": {
+					"type": "float"
+				},
+				"field270": {
+					"type": "keyword"
+				},
+				"field271": {
+					"type": "float"
+				},
+				"field272": {
+					"type": "keyword"
+				},
+				"field273": {
+					"type": "float"
+				},
+				"field274": {
+					"type": "keyword"
+				},
+				"field275": {
+					"type": "float"
+				},
+				"field276": {
+					"type": "keyword"
+				},
+				"field277": {
+					"type": "float"
+				},
+				"field278": {
+					"type": "keyword"
+				},
+				"field279": {
+					"type": "float"
+				},
+				"field28": {
+					"type": "keyword"
+				},
+				"field280": {
+					"type": "keyword"
+				},
+				"field281": {
+					"type": "float"
+				},
+				"field282": {
+					"type": "keyword"
+				},
+				"field283": {
+					"type": "float"
+				},
+				"field284": {
+					"type": "keyword"
+				},
+				"field285": {
+					"type": "float"
+				},
+				"field286": {
+					"type": "keyword"
+				},
+				"field287": {
+					"type": "float"
+				},
+				"field288": {
+					"type": "keyword"
+				},
+				"field289": {
+					"type": "float"
+				},
+				"field29": {
+					"type": "float"
+				},
+				"field290": {
+					"type": "keyword"
+				},
+				"field291": {
+					"type": "float"
+				},
+				"field292": {
+					"type": "keyword"
+				},
+				"field293": {
+					"type": "float"
+				},
+				"field294": {
+					"type": "keyword"
+				},
+				"field295": {
+					"type": "float"
+				},
+				"field296": {
+					"type": "keyword"
+				},
+				"field297": {
+					"type": "float"
+				},
+				"field298": {
+					"type": "keyword"
+				},
+				"field299": {
+					"type": "float"
+				},
+				"field3": {
+					"type": "float"
+				},
+				"field30": {
+					"type": "keyword"
+				},
+				"field300": {
+					"type": "keyword"
+				},
+				"field301": {
+					"type": "float"
+				},
+				"field302": {
+					"type": "keyword"
+				},
+				"field303": {
+					"type": "float"
+				},
+				"field304": {
+					"type": "keyword"
+				},
+				"field305": {
+					"type": "float"
+				},
+				"field306": {
+					"type": "keyword"
+				},
+				"field307": {
+					"type": "float"
+				},
+				"field308": {
+					"type": "keyword"
+				},
+				"field309": {
+					"type": "float"
+				},
+				"field31": {
+					"type": "float"
+				},
+				"field310": {
+					"type": "keyword"
+				},
+				"field311": {
+					"type": "float"
+				},
+				"field312": {
+					"type": "keyword"
+				},
+				"field313": {
+					"type": "float"
+				},
+				"field314": {
+					"type": "keyword"
+				},
+				"field315": {
+					"type": "float"
+				},
+				"field316": {
+					"type": "keyword"
+				},
+				"field317": {
+					"type": "float"
+				},
+				"field318": {
+					"type": "keyword"
+				},
+				"field319": {
+					"type": "float"
+				},
+				"field32": {
+					"type": "keyword"
+				},
+				"field320": {
+					"type": "keyword"
+				},
+				"field321": {
+					"type": "float"
+				},
+				"field322": {
+					"type": "keyword"
+				},
+				"field323": {
+					"type": "float"
+				},
+				"field324": {
+					"type": "keyword"
+				},
+				"field325": {
+					"type": "float"
+				},
+				"field326": {
+					"type": "keyword"
+				},
+				"field327": {
+					"type": "float"
+				},
+				"field328": {
+					"type": "keyword"
+				},
+				"field329": {
+					"type": "float"
+				},
+				"field33": {
+					"type": "float"
+				},
+				"field330": {
+					"type": "keyword"
+				},
+				"field331": {
+					"type": "float"
+				},
+				"field332": {
+					"type": "keyword"
+				},
+				"field333": {
+					"type": "float"
+				},
+				"field334": {
+					"type": "keyword"
+				},
+				"field335": {
+					"type": "float"
+				},
+				"field336": {
+					"type": "keyword"
+				},
+				"field337": {
+					"type": "float"
+				},
+				"field338": {
+					"type": "keyword"
+				},
+				"field339": {
+					"type": "float"
+				},
+				"field34": {
+					"type": "keyword"
+				},
+				"field340": {
+					"type": "keyword"
+				},
+				"field341": {
+					"type": "float"
+				},
+				"field342": {
+					"type": "keyword"
+				},
+				"field343": {
+					"type": "float"
+				},
+				"field344": {
+					"type": "keyword"
+				},
+				"field345": {
+					"type": "float"
+				},
+				"field346": {
+					"type": "keyword"
+				},
+				"field347": {
+					"type": "float"
+				},
+				"field348": {
+					"type": "keyword"
+				},
+				"field349": {
+					"type": "float"
+				},
+				"field35": {
+					"type": "float"
+				},
+				"field350": {
+					"type": "keyword"
+				},
+				"field351": {
+					"type": "float"
+				},
+				"field352": {
+					"type": "keyword"
+				},
+				"field353": {
+					"type": "float"
+				},
+				"field354": {
+					"type": "keyword"
+				},
+				"field355": {
+					"type": "float"
+				},
+				"field356": {
+					"type": "keyword"
+				},
+				"field357": {
+					"type": "float"
+				},
+				"field358": {
+					"type": "keyword"
+				},
+				"field359": {
+					"type": "float"
+				},
+				"field36": {
+					"type": "keyword"
+				},
+				"field360": {
+					"type": "keyword"
+				},
+				"field361": {
+					"type": "float"
+				},
+				"field362": {
+					"type": "keyword"
+				},
+				"field363": {
+					"type": "float"
+				},
+				"field364": {
+					"type": "keyword"
+				},
+				"field365": {
+					"type": "float"
+				},
+				"field366": {
+					"type": "keyword"
+				},
+				"field367": {
+					"type": "float"
+				},
+				"field368": {
+					"type": "keyword"
+				},
+				"field369": {
+					"type": "float"
+				},
+				"field37": {
+					"type": "float"
+				},
+				"field370": {
+					"type": "keyword"
+				},
+				"field371": {
+					"type": "float"
+				},
+				"field372": {
+					"type": "keyword"
+				},
+				"field373": {
+					"type": "float"
+				},
+				"field374": {
+					"type": "keyword"
+				},
+				"field375": {
+					"type": "float"
+				},
+				"field376": {
+					"type": "keyword"
+				},
+				"field377": {
+					"type": "float"
+				},
+				"field378": {
+					"type": "keyword"
+				},
+				"field379": {
+					"type": "float"
+				},
+				"field38": {
+					"type": "keyword"
+				},
+				"field380": {
+					"type": "keyword"
+				},
+				"field381": {
+					"type": "float"
+				},
+				"field382": {
+					"type": "keyword"
+				},
+				"field383": {
+					"type": "float"
+				},
+				"field384": {
+					"type": "keyword"
+				},
+				"field385": {
+					"type": "float"
+				},
+				"field386": {
+					"type": "keyword"
+				},
+				"field387": {
+					"type": "float"
+				},
+				"field388": {
+					"type": "keyword"
+				},
+				"field389": {
+					"type": "float"
+				},
+				"field39": {
+					"type": "float"
+				},
+				"field390": {
+					"type": "keyword"
+				},
+				"field391": {
+					"type": "float"
+				},
+				"field392": {
+					"type": "keyword"
+				},
+				"field393": {
+					"type": "float"
+				},
+				"field394": {
+					"type": "keyword"
+				},
+				"field395": {
+					"type": "float"
+				},
+				"field396": {
+					"type": "keyword"
+				},
+				"field397": {
+					"type": "float"
+				},
+				"field398": {
+					"type": "keyword"
+				},
+				"field399": {
+					"type": "float"
+				},
+				"field4": {
+					"type": "keyword"
+				},
+				"field40": {
+					"type": "keyword"
+				},
+				"field400": {
+					"type": "keyword"
+				},
+				"field401": {
+					"type": "float"
+				},
+				"field402": {
+					"type": "keyword"
+				},
+				"field403": {
+					"type": "float"
+				},
+				"field404": {
+					"type": "keyword"
+				},
+				"field405": {
+					"type": "float"
+				},
+				"field406": {
+					"type": "keyword"
+				},
+				"field407": {
+					"type": "float"
+				},
+				"field408": {
+					"type": "keyword"
+				},
+				"field409": {
+					"type": "float"
+				},
+				"field41": {
+					"type": "float"
+				},
+				"field410": {
+					"type": "keyword"
+				},
+				"field411": {
+					"type": "float"
+				},
+				"field412": {
+					"type": "keyword"
+				},
+				"field413": {
+					"type": "float"
+				},
+				"field414": {
+					"type": "keyword"
+				},
+				"field415": {
+					"type": "float"
+				},
+				"field416": {
+					"type": "keyword"
+				},
+				"field417": {
+					"type": "float"
+				},
+				"field418": {
+					"type": "keyword"
+				},
+				"field419": {
+					"type": "float"
+				},
+				"field42": {
+					"type": "keyword"
+				},
+				"field420": {
+					"type": "keyword"
+				},
+				"field421": {
+					"type": "float"
+				},
+				"field422": {
+					"type": "keyword"
+				},
+				"field423": {
+					"type": "float"
+				},
+				"field424": {
+					"type": "keyword"
+				},
+				"field425": {
+					"type": "float"
+				},
+				"field426": {
+					"type": "keyword"
+				},
+				"field427": {
+					"type": "float"
+				},
+				"field428": {
+					"type": "keyword"
+				},
+				"field429": {
+					"type": "float"
+				},
+				"field43": {
+					"type": "float"
+				},
+				"field430": {
+					"type": "keyword"
+				},
+				"field431": {
+					"type": "float"
+				},
+				"field432": {
+					"type": "keyword"
+				},
+				"field433": {
+					"type": "float"
+				},
+				"field434": {
+					"type": "keyword"
+				},
+				"field435": {
+					"type": "float"
+				},
+				"field436": {
+					"type": "keyword"
+				},
+				"field437": {
+					"type": "float"
+				},
+				"field438": {
+					"type": "keyword"
+				},
+				"field439": {
+					"type": "float"
+				},
+				"field44": {
+					"type": "keyword"
+				},
+				"field440": {
+					"type": "keyword"
+				},
+				"field441": {
+					"type": "float"
+				},
+				"field442": {
+					"type": "keyword"
+				},
+				"field443": {
+					"type": "float"
+				},
+				"field444": {
+					"type": "keyword"
+				},
+				"field445": {
+					"type": "float"
+				},
+				"field446": {
+					"type": "keyword"
+				},
+				"field447": {
+					"type": "float"
+				},
+				"field448": {
+					"type": "keyword"
+				},
+				"field449": {
+					"type": "float"
+				},
+				"field45": {
+					"type": "float"
+				},
+				"field450": {
+					"type": "keyword"
+				},
+				"field451": {
+					"type": "float"
+				},
+				"field452": {
+					"type": "keyword"
+				},
+				"field453": {
+					"type": "float"
+				},
+				"field454": {
+					"type": "keyword"
+				},
+				"field455": {
+					"type": "float"
+				},
+				"field456": {
+					"type": "keyword"
+				},
+				"field457": {
+					"type": "float"
+				},
+				"field458": {
+					"type": "keyword"
+				},
+				"field459": {
+					"type": "float"
+				},
+				"field46": {
+					"type": "keyword"
+				},
+				"field460": {
+					"type": "keyword"
+				},
+				"field461": {
+					"type": "float"
+				},
+				"field462": {
+					"type": "keyword"
+				},
+				"field463": {
+					"type": "float"
+				},
+				"field464": {
+					"type": "keyword"
+				},
+				"field465": {
+					"type": "float"
+				},
+				"field466": {
+					"type": "keyword"
+				},
+				"field467": {
+					"type": "float"
+				},
+				"field468": {
+					"type": "keyword"
+				},
+				"field469": {
+					"type": "float"
+				},
+				"field47": {
+					"type": "float"
+				},
+				"field470": {
+					"type": "keyword"
+				},
+				"field471": {
+					"type": "float"
+				},
+				"field472": {
+					"type": "keyword"
+				},
+				"field473": {
+					"type": "float"
+				},
+				"field474": {
+					"type": "keyword"
+				},
+				"field475": {
+					"type": "float"
+				},
+				"field476": {
+					"type": "keyword"
+				},
+				"field477": {
+					"type": "float"
+				},
+				"field478": {
+					"type": "keyword"
+				},
+				"field479": {
+					"type": "float"
+				},
+				"field48": {
+					"type": "keyword"
+				},
+				"field480": {
+					"type": "keyword"
+				},
+				"field481": {
+					"type": "float"
+				},
+				"field482": {
+					"type": "keyword"
+				},
+				"field483": {
+					"type": "float"
+				},
+				"field484": {
+					"type": "keyword"
+				},
+				"field485": {
+					"type": "float"
+				},
+				"field486": {
+					"type": "keyword"
+				},
+				"field487": {
+					"type": "float"
+				},
+				"field488": {
+					"type": "keyword"
+				},
+				"field489": {
+					"type": "float"
+				},
+				"field49": {
+					"type": "float"
+				},
+				"field490": {
+					"type": "keyword"
+				},
+				"field491": {
+					"type": "float"
+				},
+				"field492": {
+					"type": "keyword"
+				},
+				"field493": {
+					"type": "float"
+				},
+				"field494": {
+					"type": "keyword"
+				},
+				"field495": {
+					"type": "float"
+				},
+				"field496": {
+					"type": "keyword"
+				},
+				"field497": {
+					"type": "float"
+				},
+				"field498": {
+					"type": "keyword"
+				},
+				"field499": {
+					"type": "float"
+				},
+				"field5": {
+					"type": "float"
+				},
+				"field50": {
+					"type": "keyword"
+				},
+				"field500": {
+					"type": "keyword"
+				},
+				"field501": {
+					"type": "float"
+				},
+				"field502": {
+					"type": "keyword"
+				},
+				"field503": {
+					"type": "float"
+				},
+				"field504": {
+					"type": "keyword"
+				},
+				"field505": {
+					"type": "float"
+				},
+				"field506": {
+					"type": "keyword"
+				},
+				"field507": {
+					"type": "float"
+				},
+				"field508": {
+					"type": "keyword"
+				},
+				"field509": {
+					"type": "float"
+				},
+				"field51": {
+					"type": "float"
+				},
+				"field510": {
+					"type": "keyword"
+				},
+				"field511": {
+					"type": "float"
+				},
+				"field512": {
+					"type": "keyword"
+				},
+				"field513": {
+					"type": "float"
+				},
+				"field514": {
+					"type": "keyword"
+				},
+				"field515": {
+					"type": "float"
+				},
+				"field516": {
+					"type": "keyword"
+				},
+				"field517": {
+					"type": "float"
+				},
+				"field518": {
+					"type": "keyword"
+				},
+				"field519": {
+					"type": "float"
+				},
+				"field52": {
+					"type": "keyword"
+				},
+				"field520": {
+					"type": "keyword"
+				},
+				"field521": {
+					"type": "float"
+				},
+				"field522": {
+					"type": "keyword"
+				},
+				"field523": {
+					"type": "float"
+				},
+				"field524": {
+					"type": "keyword"
+				},
+				"field525": {
+					"type": "float"
+				},
+				"field526": {
+					"type": "keyword"
+				},
+				"field527": {
+					"type": "float"
+				},
+				"field528": {
+					"type": "keyword"
+				},
+				"field529": {
+					"type": "float"
+				},
+				"field53": {
+					"type": "float"
+				},
+				"field530": {
+					"type": "keyword"
+				},
+				"field531": {
+					"type": "float"
+				},
+				"field532": {
+					"type": "keyword"
+				},
+				"field533": {
+					"type": "float"
+				},
+				"field534": {
+					"type": "keyword"
+				},
+				"field535": {
+					"type": "float"
+				},
+				"field536": {
+					"type": "keyword"
+				},
+				"field537": {
+					"type": "float"
+				},
+				"field538": {
+					"type": "keyword"
+				},
+				"field539": {
+					"type": "float"
+				},
+				"field54": {
+					"type": "keyword"
+				},
+				"field540": {
+					"type": "keyword"
+				},
+				"field541": {
+					"type": "float"
+				},
+				"field542": {
+					"type": "keyword"
+				},
+				"field543": {
+					"type": "float"
+				},
+				"field544": {
+					"type": "keyword"
+				},
+				"field545": {
+					"type": "float"
+				},
+				"field546": {
+					"type": "keyword"
+				},
+				"field547": {
+					"type": "float"
+				},
+				"field548": {
+					"type": "keyword"
+				},
+				"field549": {
+					"type": "float"
+				},
+				"field55": {
+					"type": "float"
+				},
+				"field550": {
+					"type": "keyword"
+				},
+				"field551": {
+					"type": "float"
+				},
+				"field552": {
+					"type": "keyword"
+				},
+				"field553": {
+					"type": "float"
+				},
+				"field554": {
+					"type": "keyword"
+				},
+				"field555": {
+					"type": "float"
+				},
+				"field556": {
+					"type": "keyword"
+				},
+				"field557": {
+					"type": "float"
+				},
+				"field558": {
+					"type": "keyword"
+				},
+				"field559": {
+					"type": "float"
+				},
+				"field56": {
+					"type": "keyword"
+				},
+				"field560": {
+					"type": "keyword"
+				},
+				"field561": {
+					"type": "float"
+				},
+				"field562": {
+					"type": "keyword"
+				},
+				"field563": {
+					"type": "float"
+				},
+				"field564": {
+					"type": "keyword"
+				},
+				"field565": {
+					"type": "float"
+				},
+				"field566": {
+					"type": "keyword"
+				},
+				"field567": {
+					"type": "float"
+				},
+				"field568": {
+					"type": "keyword"
+				},
+				"field569": {
+					"type": "float"
+				},
+				"field57": {
+					"type": "float"
+				},
+				"field570": {
+					"type": "keyword"
+				},
+				"field571": {
+					"type": "float"
+				},
+				"field572": {
+					"type": "keyword"
+				},
+				"field573": {
+					"type": "float"
+				},
+				"field574": {
+					"type": "keyword"
+				},
+				"field575": {
+					"type": "float"
+				},
+				"field576": {
+					"type": "keyword"
+				},
+				"field577": {
+					"type": "float"
+				},
+				"field578": {
+					"type": "keyword"
+				},
+				"field579": {
+					"type": "float"
+				},
+				"field58": {
+					"type": "keyword"
+				},
+				"field580": {
+					"type": "keyword"
+				},
+				"field581": {
+					"type": "float"
+				},
+				"field582": {
+					"type": "keyword"
+				},
+				"field583": {
+					"type": "float"
+				},
+				"field584": {
+					"type": "keyword"
+				},
+				"field585": {
+					"type": "float"
+				},
+				"field586": {
+					"type": "keyword"
+				},
+				"field587": {
+					"type": "float"
+				},
+				"field588": {
+					"type": "keyword"
+				},
+				"field589": {
+					"type": "float"
+				},
+				"field59": {
+					"type": "float"
+				},
+				"field590": {
+					"type": "keyword"
+				},
+				"field591": {
+					"type": "float"
+				},
+				"field592": {
+					"type": "keyword"
+				},
+				"field593": {
+					"type": "float"
+				},
+				"field594": {
+					"type": "keyword"
+				},
+				"field595": {
+					"type": "float"
+				},
+				"field596": {
+					"type": "keyword"
+				},
+				"field597": {
+					"type": "float"
+				},
+				"field598": {
+					"type": "keyword"
+				},
+				"field599": {
+					"type": "float"
+				},
+				"field6": {
+					"type": "keyword"
+				},
+				"field60": {
+					"type": "keyword"
+				},
+				"field600": {
+					"type": "keyword"
+				},
+				"field601": {
+					"type": "float"
+				},
+				"field602": {
+					"type": "keyword"
+				},
+				"field603": {
+					"type": "float"
+				},
+				"field604": {
+					"type": "keyword"
+				},
+				"field605": {
+					"type": "float"
+				},
+				"field606": {
+					"type": "keyword"
+				},
+				"field607": {
+					"type": "float"
+				},
+				"field608": {
+					"type": "keyword"
+				},
+				"field609": {
+					"type": "float"
+				},
+				"field61": {
+					"type": "float"
+				},
+				"field610": {
+					"type": "keyword"
+				},
+				"field611": {
+					"type": "float"
+				},
+				"field612": {
+					"type": "keyword"
+				},
+				"field613": {
+					"type": "float"
+				},
+				"field614": {
+					"type": "keyword"
+				},
+				"field615": {
+					"type": "float"
+				},
+				"field616": {
+					"type": "keyword"
+				},
+				"field617": {
+					"type": "float"
+				},
+				"field618": {
+					"type": "keyword"
+				},
+				"field619": {
+					"type": "float"
+				},
+				"field62": {
+					"type": "keyword"
+				},
+				"field620": {
+					"type": "keyword"
+				},
+				"field621": {
+					"type": "float"
+				},
+				"field622": {
+					"type": "keyword"
+				},
+				"field623": {
+					"type": "float"
+				},
+				"field624": {
+					"type": "keyword"
+				},
+				"field625": {
+					"type": "float"
+				},
+				"field626": {
+					"type": "keyword"
+				},
+				"field627": {
+					"type": "float"
+				},
+				"field628": {
+					"type": "keyword"
+				},
+				"field629": {
+					"type": "float"
+				},
+				"field63": {
+					"type": "float"
+				},
+				"field630": {
+					"type": "keyword"
+				},
+				"field631": {
+					"type": "float"
+				},
+				"field632": {
+					"type": "keyword"
+				},
+				"field633": {
+					"type": "float"
+				},
+				"field634": {
+					"type": "keyword"
+				},
+				"field635": {
+					"type": "float"
+				},
+				"field636": {
+					"type": "keyword"
+				},
+				"field637": {
+					"type": "float"
+				},
+				"field638": {
+					"type": "keyword"
+				},
+				"field639": {
+					"type": "float"
+				},
+				"field64": {
+					"type": "keyword"
+				},
+				"field640": {
+					"type": "keyword"
+				},
+				"field641": {
+					"type": "float"
+				},
+				"field642": {
+					"type": "keyword"
+				},
+				"field643": {
+					"type": "float"
+				},
+				"field644": {
+					"type": "keyword"
+				},
+				"field645": {
+					"type": "float"
+				},
+				"field646": {
+					"type": "keyword"
+				},
+				"field647": {
+					"type": "float"
+				},
+				"field648": {
+					"type": "keyword"
+				},
+				"field649": {
+					"type": "float"
+				},
+				"field65": {
+					"type": "float"
+				},
+				"field650": {
+					"type": "keyword"
+				},
+				"field651": {
+					"type": "float"
+				},
+				"field652": {
+					"type": "keyword"
+				},
+				"field653": {
+					"type": "float"
+				},
+				"field654": {
+					"type": "keyword"
+				},
+				"field655": {
+					"type": "float"
+				},
+				"field656": {
+					"type": "keyword"
+				},
+				"field657": {
+					"type": "float"
+				},
+				"field658": {
+					"type": "keyword"
+				},
+				"field659": {
+					"type": "float"
+				},
+				"field66": {
+					"type": "keyword"
+				},
+				"field660": {
+					"type": "keyword"
+				},
+				"field661": {
+					"type": "float"
+				},
+				"field662": {
+					"type": "keyword"
+				},
+				"field663": {
+					"type": "float"
+				},
+				"field664": {
+					"type": "keyword"
+				},
+				"field665": {
+					"type": "float"
+				},
+				"field666": {
+					"type": "keyword"
+				},
+				"field667": {
+					"type": "float"
+				},
+				"field668": {
+					"type": "keyword"
+				},
+				"field669": {
+					"type": "float"
+				},
+				"field67": {
+					"type": "float"
+				},
+				"field670": {
+					"type": "keyword"
+				},
+				"field671": {
+					"type": "float"
+				},
+				"field672": {
+					"type": "keyword"
+				},
+				"field673": {
+					"type": "float"
+				},
+				"field674": {
+					"type": "keyword"
+				},
+				"field675": {
+					"type": "float"
+				},
+				"field676": {
+					"type": "keyword"
+				},
+				"field677": {
+					"type": "float"
+				},
+				"field678": {
+					"type": "keyword"
+				},
+				"field679": {
+					"type": "float"
+				},
+				"field68": {
+					"type": "keyword"
+				},
+				"field680": {
+					"type": "keyword"
+				},
+				"field681": {
+					"type": "float"
+				},
+				"field682": {
+					"type": "keyword"
+				},
+				"field683": {
+					"type": "float"
+				},
+				"field684": {
+					"type": "keyword"
+				},
+				"field685": {
+					"type": "float"
+				},
+				"field686": {
+					"type": "keyword"
+				},
+				"field687": {
+					"type": "float"
+				},
+				"field688": {
+					"type": "keyword"
+				},
+				"field689": {
+					"type": "float"
+				},
+				"field69": {
+					"type": "float"
+				},
+				"field690": {
+					"type": "keyword"
+				},
+				"field691": {
+					"type": "float"
+				},
+				"field692": {
+					"type": "keyword"
+				},
+				"field693": {
+					"type": "float"
+				},
+				"field694": {
+					"type": "keyword"
+				},
+				"field695": {
+					"type": "float"
+				},
+				"field696": {
+					"type": "keyword"
+				},
+				"field697": {
+					"type": "float"
+				},
+				"field698": {
+					"type": "keyword"
+				},
+				"field699": {
+					"type": "float"
+				},
+				"field7": {
+					"type": "float"
+				},
+				"field70": {
+					"type": "keyword"
+				},
+				"field700": {
+					"type": "keyword"
+				},
+				"field701": {
+					"type": "float"
+				},
+				"field702": {
+					"type": "keyword"
+				},
+				"field703": {
+					"type": "float"
+				},
+				"field704": {
+					"type": "keyword"
+				},
+				"field705": {
+					"type": "float"
+				},
+				"field706": {
+					"type": "keyword"
+				},
+				"field707": {
+					"type": "float"
+				},
+				"field708": {
+					"type": "keyword"
+				},
+				"field709": {
+					"type": "float"
+				},
+				"field71": {
+					"type": "float"
+				},
+				"field710": {
+					"type": "keyword"
+				},
+				"field711": {
+					"type": "float"
+				},
+				"field712": {
+					"type": "keyword"
+				},
+				"field713": {
+					"type": "float"
+				},
+				"field714": {
+					"type": "keyword"
+				},
+				"field715": {
+					"type": "float"
+				},
+				"field716": {
+					"type": "keyword"
+				},
+				"field717": {
+					"type": "float"
+				},
+				"field718": {
+					"type": "keyword"
+				},
+				"field719": {
+					"type": "float"
+				},
+				"field72": {
+					"type": "keyword"
+				},
+				"field720": {
+					"type": "keyword"
+				},
+				"field721": {
+					"type": "float"
+				},
+				"field722": {
+					"type": "keyword"
+				},
+				"field723": {
+					"type": "float"
+				},
+				"field724": {
+					"type": "keyword"
+				},
+				"field725": {
+					"type": "float"
+				},
+				"field726": {
+					"type": "keyword"
+				},
+				"field727": {
+					"type": "float"
+				},
+				"field728": {
+					"type": "keyword"
+				},
+				"field729": {
+					"type": "float"
+				},
+				"field73": {
+					"type": "float"
+				},
+				"field730": {
+					"type": "keyword"
+				},
+				"field731": {
+					"type": "float"
+				},
+				"field732": {
+					"type": "keyword"
+				},
+				"field733": {
+					"type": "float"
+				},
+				"field734": {
+					"type": "keyword"
+				},
+				"field735": {
+					"type": "float"
+				},
+				"field736": {
+					"type": "keyword"
+				},
+				"field737": {
+					"type": "float"
+				},
+				"field738": {
+					"type": "keyword"
+				},
+				"field739": {
+					"type": "float"
+				},
+				"field74": {
+					"type": "keyword"
+				},
+				"field740": {
+					"type": "keyword"
+				},
+				"field741": {
+					"type": "float"
+				},
+				"field742": {
+					"type": "keyword"
+				},
+				"field743": {
+					"type": "float"
+				},
+				"field744": {
+					"type": "keyword"
+				},
+				"field745": {
+					"type": "float"
+				},
+				"field746": {
+					"type": "keyword"
+				},
+				"field747": {
+					"type": "float"
+				},
+				"field748": {
+					"type": "keyword"
+				},
+				"field749": {
+					"type": "float"
+				},
+				"field75": {
+					"type": "float"
+				},
+				"field750": {
+					"type": "keyword"
+				},
+				"field751": {
+					"type": "float"
+				},
+				"field752": {
+					"type": "keyword"
+				},
+				"field753": {
+					"type": "float"
+				},
+				"field754": {
+					"type": "keyword"
+				},
+				"field755": {
+					"type": "float"
+				},
+				"field756": {
+					"type": "keyword"
+				},
+				"field757": {
+					"type": "float"
+				},
+				"field758": {
+					"type": "keyword"
+				},
+				"field759": {
+					"type": "float"
+				},
+				"field76": {
+					"type": "keyword"
+				},
+				"field760": {
+					"type": "keyword"
+				},
+				"field761": {
+					"type": "float"
+				},
+				"field762": {
+					"type": "keyword"
+				},
+				"field763": {
+					"type": "float"
+				},
+				"field764": {
+					"type": "keyword"
+				},
+				"field765": {
+					"type": "float"
+				},
+				"field766": {
+					"type": "keyword"
+				},
+				"field767": {
+					"type": "float"
+				},
+				"field768": {
+					"type": "keyword"
+				},
+				"field769": {
+					"type": "float"
+				},
+				"field77": {
+					"type": "float"
+				},
+				"field770": {
+					"type": "keyword"
+				},
+				"field771": {
+					"type": "float"
+				},
+				"field772": {
+					"type": "keyword"
+				},
+				"field773": {
+					"type": "float"
+				},
+				"field774": {
+					"type": "keyword"
+				},
+				"field775": {
+					"type": "float"
+				},
+				"field776": {
+					"type": "keyword"
+				},
+				"field777": {
+					"type": "float"
+				},
+				"field778": {
+					"type": "keyword"
+				},
+				"field779": {
+					"type": "float"
+				},
+				"field78": {
+					"type": "keyword"
+				},
+				"field780": {
+					"type": "keyword"
+				},
+				"field781": {
+					"type": "float"
+				},
+				"field782": {
+					"type": "keyword"
+				},
+				"field783": {
+					"type": "float"
+				},
+				"field784": {
+					"type": "keyword"
+				},
+				"field785": {
+					"type": "float"
+				},
+				"field786": {
+					"type": "keyword"
+				},
+				"field787": {
+					"type": "float"
+				},
+				"field788": {
+					"type": "keyword"
+				},
+				"field789": {
+					"type": "float"
+				},
+				"field79": {
+					"type": "float"
+				},
+				"field790": {
+					"type": "keyword"
+				},
+				"field791": {
+					"type": "float"
+				},
+				"field792": {
+					"type": "keyword"
+				},
+				"field793": {
+					"type": "float"
+				},
+				"field794": {
+					"type": "keyword"
+				},
+				"field795": {
+					"type": "float"
+				},
+				"field796": {
+					"type": "keyword"
+				},
+				"field797": {
+					"type": "float"
+				},
+				"field798": {
+					"type": "keyword"
+				},
+				"field799": {
+					"type": "float"
+				},
+				"field8": {
+					"type": "keyword"
+				},
+				"field80": {
+					"type": "keyword"
+				},
+				"field800": {
+					"type": "keyword"
+				},
+				"field801": {
+					"type": "float"
+				},
+				"field802": {
+					"type": "keyword"
+				},
+				"field803": {
+					"type": "float"
+				},
+				"field804": {
+					"type": "keyword"
+				},
+				"field805": {
+					"type": "float"
+				},
+				"field806": {
+					"type": "keyword"
+				},
+				"field807": {
+					"type": "float"
+				},
+				"field808": {
+					"type": "keyword"
+				},
+				"field809": {
+					"type": "float"
+				},
+				"field81": {
+					"type": "float"
+				},
+				"field810": {
+					"type": "keyword"
+				},
+				"field811": {
+					"type": "float"
+				},
+				"field812": {
+					"type": "keyword"
+				},
+				"field813": {
+					"type": "float"
+				},
+				"field814": {
+					"type": "keyword"
+				},
+				"field815": {
+					"type": "float"
+				},
+				"field816": {
+					"type": "keyword"
+				},
+				"field817": {
+					"type": "float"
+				},
+				"field818": {
+					"type": "keyword"
+				},
+				"field819": {
+					"type": "float"
+				},
+				"field82": {
+					"type": "keyword"
+				},
+				"field820": {
+					"type": "keyword"
+				},
+				"field821": {
+					"type": "float"
+				},
+				"field822": {
+					"type": "keyword"
+				},
+				"field823": {
+					"type": "float"
+				},
+				"field824": {
+					"type": "keyword"
+				},
+				"field825": {
+					"type": "float"
+				},
+				"field826": {
+					"type": "keyword"
+				},
+				"field827": {
+					"type": "float"
+				},
+				"field828": {
+					"type": "keyword"
+				},
+				"field829": {
+					"type": "float"
+				},
+				"field83": {
+					"type": "float"
+				},
+				"field830": {
+					"type": "keyword"
+				},
+				"field831": {
+					"type": "float"
+				},
+				"field832": {
+					"type": "keyword"
+				},
+				"field833": {
+					"type": "float"
+				},
+				"field834": {
+					"type": "keyword"
+				},
+				"field835": {
+					"type": "float"
+				},
+				"field836": {
+					"type": "keyword"
+				},
+				"field837": {
+					"type": "float"
+				},
+				"field838": {
+					"type": "keyword"
+				},
+				"field839": {
+					"type": "float"
+				},
+				"field84": {
+					"type": "keyword"
+				},
+				"field840": {
+					"type": "keyword"
+				},
+				"field841": {
+					"type": "float"
+				},
+				"field842": {
+					"type": "keyword"
+				},
+				"field843": {
+					"type": "float"
+				},
+				"field844": {
+					"type": "keyword"
+				},
+				"field845": {
+					"type": "float"
+				},
+				"field846": {
+					"type": "keyword"
+				},
+				"field847": {
+					"type": "float"
+				},
+				"field848": {
+					"type": "keyword"
+				},
+				"field849": {
+					"type": "float"
+				},
+				"field85": {
+					"type": "float"
+				},
+				"field850": {
+					"type": "keyword"
+				},
+				"field851": {
+					"type": "float"
+				},
+				"field852": {
+					"type": "keyword"
+				},
+				"field853": {
+					"type": "float"
+				},
+				"field854": {
+					"type": "keyword"
+				},
+				"field855": {
+					"type": "float"
+				},
+				"field856": {
+					"type": "keyword"
+				},
+				"field857": {
+					"type": "float"
+				},
+				"field858": {
+					"type": "keyword"
+				},
+				"field859": {
+					"type": "float"
+				},
+				"field86": {
+					"type": "keyword"
+				},
+				"field860": {
+					"type": "keyword"
+				},
+				"field861": {
+					"type": "float"
+				},
+				"field862": {
+					"type": "keyword"
+				},
+				"field863": {
+					"type": "float"
+				},
+				"field864": {
+					"type": "keyword"
+				},
+				"field865": {
+					"type": "float"
+				},
+				"field866": {
+					"type": "keyword"
+				},
+				"field867": {
+					"type": "float"
+				},
+				"field868": {
+					"type": "keyword"
+				},
+				"field869": {
+					"type": "float"
+				},
+				"field87": {
+					"type": "float"
+				},
+				"field870": {
+					"type": "keyword"
+				},
+				"field871": {
+					"type": "float"
+				},
+				"field872": {
+					"type": "keyword"
+				},
+				"field873": {
+					"type": "float"
+				},
+				"field874": {
+					"type": "keyword"
+				},
+				"field875": {
+					"type": "float"
+				},
+				"field876": {
+					"type": "keyword"
+				},
+				"field877": {
+					"type": "float"
+				},
+				"field878": {
+					"type": "keyword"
+				},
+				"field879": {
+					"type": "float"
+				},
+				"field88": {
+					"type": "keyword"
+				},
+				"field880": {
+					"type": "keyword"
+				},
+				"field881": {
+					"type": "float"
+				},
+				"field882": {
+					"type": "keyword"
+				},
+				"field883": {
+					"type": "float"
+				},
+				"field884": {
+					"type": "keyword"
+				},
+				"field885": {
+					"type": "float"
+				},
+				"field886": {
+					"type": "keyword"
+				},
+				"field887": {
+					"type": "float"
+				},
+				"field888": {
+					"type": "keyword"
+				},
+				"field889": {
+					"type": "float"
+				},
+				"field89": {
+					"type": "float"
+				},
+				"field890": {
+					"type": "keyword"
+				},
+				"field891": {
+					"type": "float"
+				},
+				"field892": {
+					"type": "keyword"
+				},
+				"field893": {
+					"type": "float"
+				},
+				"field894": {
+					"type": "keyword"
+				},
+				"field895": {
+					"type": "float"
+				},
+				"field896": {
+					"type": "keyword"
+				},
+				"field897": {
+					"type": "float"
+				},
+				"field898": {
+					"type": "keyword"
+				},
+				"field899": {
+					"type": "float"
+				},
+				"field9": {
+					"type": "float"
+				},
+				"field90": {
+					"type": "keyword"
+				},
+				"field900": {
+					"type": "keyword"
+				},
+				"field901": {
+					"type": "float"
+				},
+				"field902": {
+					"type": "keyword"
+				},
+				"field903": {
+					"type": "float"
+				},
+				"field904": {
+					"type": "keyword"
+				},
+				"field905": {
+					"type": "float"
+				},
+				"field906": {
+					"type": "keyword"
+				},
+				"field907": {
+					"type": "float"
+				},
+				"field908": {
+					"type": "keyword"
+				},
+				"field909": {
+					"type": "float"
+				},
+				"field91": {
+					"type": "float"
+				},
+				"field910": {
+					"type": "keyword"
+				},
+				"field911": {
+					"type": "float"
+				},
+				"field912": {
+					"type": "keyword"
+				},
+				"field913": {
+					"type": "float"
+				},
+				"field914": {
+					"type": "keyword"
+				},
+				"field915": {
+					"type": "float"
+				},
+				"field916": {
+					"type": "keyword"
+				},
+				"field917": {
+					"type": "float"
+				},
+				"field918": {
+					"type": "keyword"
+				},
+				"field919": {
+					"type": "float"
+				},
+				"field92": {
+					"type": "keyword"
+				},
+				"field920": {
+					"type": "keyword"
+				},
+				"field921": {
+					"type": "float"
+				},
+				"field922": {
+					"type": "keyword"
+				},
+				"field923": {
+					"type": "float"
+				},
+				"field924": {
+					"type": "keyword"
+				},
+				"field925": {
+					"type": "float"
+				},
+				"field926": {
+					"type": "keyword"
+				},
+				"field927": {
+					"type": "float"
+				},
+				"field928": {
+					"type": "keyword"
+				},
+				"field929": {
+					"type": "float"
+				},
+				"field93": {
+					"type": "float"
+				},
+				"field930": {
+					"type": "keyword"
+				},
+				"field931": {
+					"type": "float"
+				},
+				"field932": {
+					"type": "keyword"
+				},
+				"field933": {
+					"type": "float"
+				},
+				"field934": {
+					"type": "keyword"
+				},
+				"field935": {
+					"type": "float"
+				},
+				"field936": {
+					"type": "keyword"
+				},
+				"field937": {
+					"type": "float"
+				},
+				"field938": {
+					"type": "keyword"
+				},
+				"field939": {
+					"type": "float"
+				},
+				"field94": {
+					"type": "keyword"
+				},
+				"field940": {
+					"type": "keyword"
+				},
+				"field941": {
+					"type": "float"
+				},
+				"field942": {
+					"type": "keyword"
+				},
+				"field943": {
+					"type": "float"
+				},
+				"field944": {
+					"type": "keyword"
+				},
+				"field945": {
+					"type": "float"
+				},
+				"field946": {
+					"type": "keyword"
+				},
+				"field947": {
+					"type": "float"
+				},
+				"field948": {
+					"type": "keyword"
+				},
+				"field949": {
+					"type": "float"
+				},
+				"field95": {
+					"type": "float"
+				},
+				"field950": {
+					"type": "keyword"
+				},
+				"field951": {
+					"type": "float"
+				},
+				"field952": {
+					"type": "keyword"
+				},
+				"field953": {
+					"type": "float"
+				},
+				"field954": {
+					"type": "keyword"
+				},
+				"field955": {
+					"type": "float"
+				},
+				"field956": {
+					"type": "keyword"
+				},
+				"field957": {
+					"type": "float"
+				},
+				"field958": {
+					"type": "keyword"
+				},
+				"field959": {
+					"type": "float"
+				},
+				"field96": {
+					"type": "keyword"
+				},
+				"field960": {
+					"type": "keyword"
+				},
+				"field961": {
+					"type": "float"
+				},
+				"field962": {
+					"type": "keyword"
+				},
+				"field963": {
+					"type": "float"
+				},
+				"field964": {
+					"type": "keyword"
+				},
+				"field965": {
+					"type": "float"
+				},
+				"field966": {
+					"type": "keyword"
+				},
+				"field967": {
+					"type": "float"
+				},
+				"field968": {
+					"type": "keyword"
+				},
+				"field969": {
+					"type": "float"
+				},
+				"field97": {
+					"type": "float"
+				},
+				"field970": {
+					"type": "keyword"
+				},
+				"field971": {
+					"type": "float"
+				},
+				"field972": {
+					"type": "keyword"
+				},
+				"field973": {
+					"type": "float"
+				},
+				"field974": {
+					"type": "keyword"
+				},
+				"field975": {
+					"type": "float"
+				},
+				"field976": {
+					"type": "keyword"
+				},
+				"field977": {
+					"type": "float"
+				},
+				"field978": {
+					"type": "keyword"
+				},
+				"field979": {
+					"type": "float"
+				},
+				"field98": {
+					"type": "keyword"
+				},
+				"field980": {
+					"type": "keyword"
+				},
+				"field981": {
+					"type": "float"
+				},
+				"field982": {
+					"type": "keyword"
+				},
+				"field983": {
+					"type": "float"
+				},
+				"field984": {
+					"type": "keyword"
+				},
+				"field985": {
+					"type": "float"
+				},
+				"field986": {
+					"type": "keyword"
+				},
+				"field987": {
+					"type": "float"
+				},
+				"field988": {
+					"type": "keyword"
+				},
+				"field989": {
+					"type": "float"
+				},
+				"field99": {
+					"type": "float"
+				},
+				"field990": {
+					"type": "keyword"
+				},
+				"field991": {
+					"type": "float"
+				},
+				"field992": {
+					"type": "keyword"
+				},
+				"field993": {
+					"type": "float"
+				},
+				"field994": {
+					"type": "keyword"
+				},
+				"field995": {
+					"type": "float"
+				},
+				"field996": {
+					"type": "keyword"
+				},
+				"field997": {
+					"type": "float"
+				},
+				"field998": {
+					"type": "keyword"
+				},
+				"field999": {
+					"type": "float"
+				},
+				"memberLogin": {
+					"type": "keyword"
+				}
+			}
+		}
+	}
+}

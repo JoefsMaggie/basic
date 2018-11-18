@@ -1,0 +1,22 @@
+security:
+  key: YY8B027372E9FF641ED7F1708F633C05E9DFD8F9BD1775AC3BDE406A0D9B2444E450F7062E663B5C
+es:
+  tags:
+    index: customertags
+api:
+  enableApi: true
+# es 配置
+elasticsearch:
+  sniff: false
+  # es 集群名称
+  clusterName: es
+  # es 集群节点
+  clusterNodes:
+    - 10.105.229.84:9300
+    - 10.105.27.73:9300
+hbase:
+  config:
+    hbase.zookeeper.quorum: 172.81.243.119,212.64.41.58
+    hbase.zookeeper.port: 2181
+  tableName:
+    updateTime: tags_update_timestamp

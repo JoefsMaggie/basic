@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>Joe</groupId>
+        <artifactId>joe</artifactId>
+        <version>0.0.1</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>joe.basic</artifactId>
+    <version>0.0.1</version>
+    <packaging>pom</packaging>
+
+    <name>joe.basic</name>
+    <description>
+        基础包
+        包含一些公共包，如数据库包，ES 包， Hbase 包等
+    </description>
+
+    <modules>
+        <module>core</module>
+        <module>database</module>
+        <module>elasticsearch</module>
+        <module>hbase</module>
+        <module>configSDK</module>
+        <module>config</module>
+    </modules>
+
+    <properties>
+        <guava>23.0</guava>
+        <lombok>1.16.20</lombok>
+        <commons-io>1.3.2</commons-io>
+        <commons-lang3>3.7</commons-lang3>
+        <commons-beanutils>1.9.3</commons-beanutils>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>${guava}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>${lombok}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>${commons-io}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>${commons-lang3}</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-beanutils</groupId>
+            <artifactId>commons-beanutils</artifactId>
+            <version>${commons-beanutils}</version>
+        </dependency>
+    </dependencies>
+</project>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<included>
+    <!--<include resource="org/springframework/boot/logging/logback/base.xml"/>-->
+    <!--<logger name="org.springframework.web" level="DEBUG"/>-->
+
+    <property name="LOG_PATTERN" value="%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{35}.%line - %msg %n"/>
+    <property name="LOG_HOME" value="../logs"/>
+    <!--<property name="LOG_NAME" value="tags"/>-->
+
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <!-- encoders are by default assigned the type ch.qos.logback.classic.encoder.PatternLayoutEncoder -->
+        <encoder>
+            <pattern>${LOG_PATTERN}</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="DAILY_INFO_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <File>${LOG_HOME}/info/${LOG_NAME}.log</File>
+        <!-- 添加 范围 过滤 -->
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <!-- 要拦截的日志级别 -->
+            <level>ERROR</level>
+            <!-- 如果匹配，则禁止记录 -->
+            <onMatch>DENY</onMatch>
+            <!-- 如果不匹配，则允许记录 -->
+            <onMismatch>ACCEPT</onMismatch>
+        </filter>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <!-- 保存历史记录到这个文件夹，以日期为后缀 -->
+            <FileNamePattern>${LOG_HOME}/info/${LOG_NAME}.log.%d{yyyy-MM-dd}.%i</FileNamePattern>
+            <!-- 保存最近30天的日志 -->
+            <maxHistory>30</maxHistory>
+            <!-- 单个日志文件的最大占用磁盘10M -->
+            <maxFileSize>10MB</maxFileSize>
+        </rollingPolicy>
+        <encoder>
+            <Pattern>${LOG_PATTERN}</Pattern>
+            <!-- 此处设置字符集 -->
+            <charset>UTF-8</charset>
+        </encoder>
+    </appender>
+
+    <appender name="DAILY_ERROR_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <File>${LOG_HOME}/error/${LOG_NAME}.log</File>
+        <!-- 添加 范围 过滤 -->
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <!-- 要拦截的日志级别 -->
+            <level>ERROR</level>
+        </filter>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <!-- 保存历史记录到这个文件夹，以日期为后缀 -->
+            <fileNamePattern>${LOG_HOME}/error/${LOG_NAME}.log.%d{yyyy-MM-dd}.%i</fileNamePattern>
+            <!-- 保存最近30天的日志 -->
+            <maxHistory>30</maxHistory>
+            <!-- 单个日志文件的最大占用磁盘10M -->
+            <maxFileSize>10MB</maxFileSize>
+        </rollingPolicy>
+        <encoder>
+            <pattern>${LOG_PATTERN}</pattern>
+            <!-- 此处设置字符集 -->
+            <charset>UTF-8</charset>
+        </encoder>
+    </appender>
+
+    <root level="INFO">
+        <appender-ref ref="STDOUT"/>
+        <appender-ref ref="DAILY_INFO_FILE"/>
+        <appender-ref ref="DAILY_ERROR_FILE"/>
+    </root>
+</included>
