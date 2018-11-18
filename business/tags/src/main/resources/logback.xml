@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<configuration>
-    <property name="LOG_NAME" value="tags"/>
-    <include resource="logback-core.xml"/>
-</configuration>
