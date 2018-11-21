@@ -1,4 +1,4 @@
-package com.miduo.dcrm.database.aop;
+package joe.database.aop;
 
 import lombok.extern.slf4j.Slf4j;
 import lombok.val;
