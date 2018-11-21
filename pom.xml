@@ -20,7 +20,6 @@
 
     <modules>
         <module>basic</module>
-        <module>business</module>
         <module>solveConflict</module>
         <module>test</module>
     </modules>

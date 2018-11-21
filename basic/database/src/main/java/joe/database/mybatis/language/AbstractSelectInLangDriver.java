@@ -7,12 +7,13 @@ import org.apache.ibatis.session.Configuration;
 import java.util.regex.Matcher;
 
 /**
+ * 增强 mybatis select in sql 的注解
+ *
  * @author : Joe joe_fs@sina.com
  * @version : V1.0
- * 增强 mybatis select in sql 的注解
  * Date: 2018/10/29
  */
-public class SimpleSelectInLangDriver extends XMLLanguageDriver implements ILanguageDriver {
+public abstract class AbstractSelectInLangDriver extends XMLLanguageDriver implements ILanguageDriver {
 
     @Override
     public SqlSource createSqlSource(Configuration configuration, String script, Class<?> parameterType) {
@@ -29,8 +30,4 @@ public class SimpleSelectInLangDriver extends XMLLanguageDriver implements ILang
         return super.createSqlSource(configuration, script, parameterType);
     }
 
-    @Override
-    public String fieldProc(String fieldName) {
-        return lowerCamelToUnderscore(fieldName);
-    }
 }
