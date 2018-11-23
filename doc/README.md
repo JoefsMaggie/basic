@@ -26,8 +26,10 @@
 `business`为业务模块，现有`tag`标签业务模块。
 
 ```$xslt
--- joe ------------- 项目根目录，定义spring boot的版本
+-- com.miduo.dcrm ------------- 项目根目录，定义spring boot的版本
   |-- basic ------------------- 公共依赖基础包
+     |-- config --------------- apollo配置中心依赖包
+     |-- configSDK ------------ apollo配置中心SDK，供spark使用
      |-- core ----------------- 核心包，任何一个业务模块都应该依赖此包，包含参数解析和校验，swagger，通讯模型等
      |-- database ------------- 数据库包，需要使用数据库的模块依赖
      |-- elasticsearch -------- es包，需要使用es的模块依赖
@@ -37,10 +39,14 @@
   |-- solveConflict ----------- 用于解决jar包冲突，无意义
 ```
 ### 具体模块结构
+- config 和 configSDK
+此两包需要主要是 apollo 配置中心的使用，因为公司使用的 apollo 版本为 0.0.7，maven 中央仓库没有此版本依赖，
+只能自己手动添加到本地在使用，具体请看 configSDK/lib/README.md，模块结构较为简单且没有特殊功能，这里不做介绍
+
 - core包模块结构
 ```$xslt
 -- com
-  |-- Joe
+  |-- miduo
      |-- dcrm
         |-- core
            |-- communicate   通讯模型
@@ -56,14 +62,30 @@
            |-- validation    参数校验
               |-- custom     自定义校验器
 ```
-- database包模块，暂未实现
+- database包模块
+
+包含 mybatis 的定义以及工具类，druid数据库连接池的定义和配置，另外，公司使用 sqlserver 数据库，
+其 jdbc Driver 也需要手动安装到本地maven仓库，具体请看 database/doc/README.md
+```$xslt
+-- com
+  |-- miduo
+     |-- dcrm
+        |-- database
+           |-- aop            切面拦截 mapper 方法，用于添加一些字段值
+           |-- conf           mybatis 与 druid 的配置
+           |-- druid          druid 配置
+           |-- mybatis  
+              |-- interceptor 拦截器使用
+              |-- language    language定义
+           |-- utils          工具类，包含 ID 生成器
+```
 
 - elasticsearch包模块
 
 直接依赖 elasticsearch 模块，采用原生方式开发
 ```$xslt
 -- com
-  |-- Joe
+  |-- miduo
      |-- dcrm
         |-- elasticsearch
            |-- client.conf  TransportClient定义
@@ -77,7 +99,7 @@
 依赖`spring-data-hadoop-core`模块
 ```$xslt
 -- com
-  |-- Joe
+  |-- miduo
      |-- dcrm
         |-- hbase
            |-- client    HbaseTemplate定义
@@ -87,7 +109,7 @@
 
 ```$xslt
 -- com
-  |-- Joe
+  |-- miduo
      |-- dcrm
         |-- tag
            |-- common          公共包，一些常量定义
@@ -95,6 +117,7 @@
            |-- modal           模型层，负责与数据库/ES连接查询数据
               |-- bean         DTO模型定义
               |-- query        ES查询相关
+              |-- mapper       mybatis mapper，其 mapping 放在 resources 下的 mapper 目录
               |-- utils        工具类，现存放ES的query和agg生成相关工具
            |-- services        服务层，负责数据处理
            |-- TagApplication  启动类
@@ -104,14 +127,14 @@
 - 项目编译
 
 因为没有 maven 中央仓库，新拉取的代码需要在本地编译一次，在 idea 右侧栏中点击`Maven Projext`按钮，
-找到`joe`根目录，点击展开`Lifecycle`，双击`install`按钮
+找到`com.miduo.dcrm`根目录，点击展开`Lifecycle`，双击`install`按钮
 
 ![编译项目](../imgs/maven项目编译.png)
 
-若报出`business`需要依赖某项目而不能编译的错误，可以在`joe`根目录下的pom文件中注释`business`模块再编译，
-然后再单独编译`business`模块，步骤与编译`joe`相似，找到`joe.business`模块双击`Lifecycle`中的`install`按钮
+若报出`business`需要依赖某项目而不能编译的错误，可以在`com.miduo.dcrm`根目录下的pom文件中注释`business`模块再编译，
+然后再单独编译`business`模块，步骤与编译`com.miduo.dcrm`相似，找到`com.miduo.dcrm.business`模块双击`Lifecycle`中的`install`按钮
 
-编译过后的可以在本地 maven 仓库中找到编译后的 jar 包，一般是在`C:\Users\Joe\.m2\repository\Joe`
+编译过后的可以在本地 maven 仓库中找到编译后的 jar 包，一般是在`C:\Users\miduo\.m2\repository\miduo`
 
 - 启动项目
 
@@ -143,7 +166,7 @@
 
 将此jar包上传到服务器`/data/dev/services/tags/lib`目录，执行如下命令即可
 ```shell
-nohup java -jar /data/dev/services/tags/lib/joe.tag-0.0.1.jar --spring.profiles.active=dev > /dev/null &
+nohup java -jar /data/dev/services/tags/lib/com.miduo.dcrm.tag-0.0.1.jar --spring.profiles.active=dev > /dev/null &
 ```
 `spring.profiles.active`表示加载配置文件，同项目启动`Active profiles`
 
@@ -153,3 +176,9 @@ nohup java -jar /data/dev/services/tags/lib/joe.tag-0.0.1.jar --spring.profiles.
 
 与使用idea相同，需要先编译整个项目，找到项目根目录执行`mvn clean install -Dmaven.test.skip=true`，
 编译成功后在本地 maven 仓库找到相应jar包使用即可
+
+- 启动项目
+
+文件夹下包含的三个shell文件，restart.sh、start.sh、stop.sh分别是项目的重启、启动和停止脚本
+
+初次使用时应修改start.sh中的一些配置，如apollo的环境，其中apollo配置与spring配置不冲突，都可以配置，但是以apollo为主
