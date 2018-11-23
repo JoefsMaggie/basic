@@ -21,7 +21,7 @@ import java.util.regex.Matcher;
  */
 public abstract class AbstractSelectLangDriver extends XMLLanguageDriver implements ILanguageDriver {
 
-    private static final String FIELD_IF = "<if test=\"_field != null\">AND _column = #{_field}</if>";
+    private static final String FIELD_IF = "<if test=\"_field != null\"> AND _column = #{_field} </if>";
 
     @Override
     public SqlSource createSqlSource(Configuration configuration, String script, Class<?> parameterType) {
