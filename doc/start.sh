@@ -34,7 +34,7 @@ cd ../lib
 lib_path=`pwd`
 echo "lib_path : $lib_path"
 
-jar_name=`ls | grep .jar`
+jar_name=`ls -t | grep .jar$ | awk 'NR==1'`
 echo "jar_name : $jar_name"
 
 pid=`ps -ef | grep $jar_name | grep -v "grep" | awk '{print $2}'`
