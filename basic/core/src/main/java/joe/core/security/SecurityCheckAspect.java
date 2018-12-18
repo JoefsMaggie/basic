@@ -25,7 +25,7 @@ import java.util.Objects;
  * @version V1.0
 
 
- * @note: 安全校验，对 key 做校验
+ *  安全校验，对 key 做校验
  * Date Date : 2018年09月05日 11:36
  */
 @Aspect

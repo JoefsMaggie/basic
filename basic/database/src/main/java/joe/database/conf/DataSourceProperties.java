@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Configuration;
 /**
  * @author : Joe joe_fs@sina.com
  * @version V1.0
- * @note: 数据源配置
+ *  数据源配置
  * Date : 2018年10月26日 12:03
  */
 @Data

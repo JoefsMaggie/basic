@@ -5,7 +5,7 @@ package joe.elasticsearch.model.aggs;
  * @version V1.0
 
 
- * @note: TPO_HITS AGG
+ *  TPO_HITS AGG
  * Date Date : 2018年09月27日 15:48
  */
 public class TopHitsAgg extends BasicAgg<TopHitsAgg> {

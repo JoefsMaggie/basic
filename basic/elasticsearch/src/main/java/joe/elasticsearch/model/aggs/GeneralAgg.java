@@ -17,7 +17,7 @@ import java.util.List;
  * @version V1.0
 
 
- * @note: 通用聚合模型
+ *  通用聚合模型
  * Date Date : 2018年09月27日 15:52
  */
 @Getter

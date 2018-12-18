@@ -14,7 +14,7 @@ import javax.validation.constraints.NotNull;
  * @version V1.0
 
 
- * @note: 基础聚合模型
+ *  基础聚合模型
  * Date Date : 2018年09月25日 09:56
  */
 @Data

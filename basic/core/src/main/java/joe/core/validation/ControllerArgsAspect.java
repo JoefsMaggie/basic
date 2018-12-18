@@ -26,7 +26,7 @@ import java.util.Objects;
  * @version V1.0
 
 
- * @note: 安全校验
+ *  安全校验
  * Date Date : 2018年09月04日 10:46
  */
 @Aspect

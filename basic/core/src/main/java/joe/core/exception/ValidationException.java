@@ -16,7 +16,7 @@ import java.util.stream.Collectors;
  * @version V1.0
 
 
- * @note: 校验器
+ *  校验器
  * Date Date : 2018年09月04日 10:02
  */
 public class ValidationException extends RuntimeException {

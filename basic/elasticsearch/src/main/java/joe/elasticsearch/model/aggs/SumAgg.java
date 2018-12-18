@@ -5,7 +5,7 @@ package joe.elasticsearch.model.aggs;
  * @version V1.0
 
 
- * @note: SUM AGG
+ *  SUM AGG
  * Date Date : 2018年09月27日 15:41
  */
 public class SumAgg extends BasicAgg<SumAgg> {

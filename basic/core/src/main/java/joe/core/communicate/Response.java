@@ -12,7 +12,7 @@ import java.util.Objects;
  * @version V1.0
 
 
- * @note: 返回数据模型
+ *  返回数据模型
  * Date Date : 2018年09月04日 15:53
  */
 @ApiModel(description = "返回数据模型")

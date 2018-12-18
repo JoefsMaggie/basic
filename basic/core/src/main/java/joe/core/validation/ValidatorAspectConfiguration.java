@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Configuration;
  * @version V1.0
 
 
- * @note: 参数校验需要的 bean 的配置类
+ *  参数校验需要的 bean 的配置类
  * Date Date : 2018年09月04日 11:35
  */
 @Configuration

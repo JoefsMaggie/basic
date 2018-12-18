@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletRequest;
  * @version V1.0
 
 
- * @note: 参数解析
+ *  参数解析
  * Date Date : 2018年09月04日 13:46
  */
 public interface ArgumentResolver {

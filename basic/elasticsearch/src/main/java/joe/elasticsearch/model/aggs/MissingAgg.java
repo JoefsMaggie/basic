@@ -5,7 +5,7 @@ package joe.elasticsearch.model.aggs;
  * @version V1.0
 
 
- * @note: MISSING AGG
+ *  MISSING AGG
  * Date Date : 2018年09月27日 15:44
  */
 public class MissingAgg extends BasicAgg<MissingAgg> {

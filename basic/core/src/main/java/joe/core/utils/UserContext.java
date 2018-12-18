@@ -10,7 +10,7 @@ import java.io.IOException;
  * @version V1.0
 
 
- * @note: 获取请求报文，结合filter来解决请求报文不能重复读取的问题
+ *  获取请求报文，结合filter来解决请求报文不能重复读取的问题
  * Date Date : 2018年09月04日 13:46
  */
 public class UserContext {

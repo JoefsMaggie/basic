@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
  * @version V1.0
 
  2
- * @note: swagger配置信息类
+ *  swagger配置信息类
  * Date Date : 2018年09月14日 15:37
  */
 @Component

@@ -17,7 +17,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
  * @version V1.0
 
  2
- * @note: swagger配置生成
+ *  swagger配置生成
  * Date Date : 2018年09月14日 11:42
  */
 @Configuration

@@ -17,7 +17,7 @@ import java.io.IOException;
  * @version V1.0
 
 
- * @note: 全局异常处理器
+ *  全局异常处理器
  * Date Date : 2018年09月04日 9:50
  */
 @ControllerAdvice

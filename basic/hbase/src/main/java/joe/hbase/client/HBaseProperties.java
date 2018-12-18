@@ -10,7 +10,7 @@ import java.util.Map;
  * @version V1.0
 
 
- * @note: hbase 配置信息类
+ *  hbase 配置信息类
  * Date Date : 2018年09月20日 9:24
  */
 @Component

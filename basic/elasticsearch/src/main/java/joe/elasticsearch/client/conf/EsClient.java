@@ -21,7 +21,7 @@ import java.util.Map;
  * @version V1.0
 
 
- * @note: ES TransportClient 生成
+ *  ES TransportClient 生成
  * Date Date : 2018年09月03日 15:02
  */
 @Configuration

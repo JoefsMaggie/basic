@@ -10,7 +10,7 @@ import java.io.Serializable;
  * @version V1.0
 
 
- * @note: 返回头信息
+ *  返回头信息
  * Date Date : 2018年09月04日 15:59
  */
 @JsonInclude(JsonInclude.Include.NON_NULL)

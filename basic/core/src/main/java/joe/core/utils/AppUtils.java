@@ -9,7 +9,7 @@ import org.springframework.context.ApplicationContextAware;
  * @version V1.0
 
 
- * @note: ApplicationContext 工具类
+ *  ApplicationContext 工具类
  * Date Date : 2018年09月04日 13:46
  */
 public class AppUtils implements ApplicationContextAware {

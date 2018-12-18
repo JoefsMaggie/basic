@@ -16,7 +16,7 @@ import java.util.Set;
  * @version V1.0
 
 
- * @note: 错误日志过滤器
+ *  错误日志过滤器
  * Date Date : 2018年09月03日 11:57
  */
 public class ThrowableFilter extends TurboFilter {

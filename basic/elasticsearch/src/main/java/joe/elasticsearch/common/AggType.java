@@ -8,7 +8,7 @@ import org.apache.commons.lang3.StringUtils;
  * @version V1.0
 
 
- * @note: 通用聚合类型
+ *  通用聚合类型
  * Date Date : 2018年09月25日 09:56
  */
 public enum AggType {

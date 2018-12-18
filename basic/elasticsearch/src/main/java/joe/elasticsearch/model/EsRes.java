@@ -9,7 +9,7 @@ import java.util.Map;
  * @version V1.0
 
 
- * @note: ES 返回模型
+ *  ES 返回模型
  * Date Date : 2018年09月27日 16:14
  */
 public class EsRes {

@@ -15,7 +15,7 @@ import java.util.Set;
  * @version V1.0
 
 
- * @note: 异常工具类
+ *  异常工具类
  * Date Date : 2018年09月04日 10:02
  */
 public class ExceptionUtil {

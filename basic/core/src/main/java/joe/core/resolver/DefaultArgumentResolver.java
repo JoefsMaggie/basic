@@ -25,7 +25,7 @@ import java.util.stream.Stream;
  * @version V1.0
 
 
- * @note: RequestMapping 方法参数注入
+ *  RequestMapping 方法参数注入
  * Date Date : 2018年09月04日 13:46
  */
 public class DefaultArgumentResolver implements HandlerMethodArgumentResolver {

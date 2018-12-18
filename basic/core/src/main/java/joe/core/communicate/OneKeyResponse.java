@@ -10,7 +10,7 @@ import java.util.Map;
  * @version V1.0
 
 
- * @note: 单值返回类型
+ *  单值返回类型
  * Date Date : 2018年09月04日 17:02
  */
 public class OneKeyResponse<V> {

@@ -8,7 +8,7 @@ import org.slf4j.LoggerFactory;
  * @version V1.0
 
 
- * @note: 生成日志工具类
+ *  生成日志工具类
  * Date Date : 2018年09月04日 10:21
  */
 public class Loggers {

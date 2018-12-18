@@ -5,7 +5,7 @@ package joe.elasticsearch.model.aggs;
  * @version V1.0
 
 
- * @note: AVG AGG
+ *  AVG AGG
  * Date Date : 2018年09月27日 15:39
  */
 public class AvgAgg extends BasicAgg<AvgAgg> {

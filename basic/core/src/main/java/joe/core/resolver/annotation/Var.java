@@ -11,7 +11,7 @@ import static java.lang.annotation.RetentionPolicy.RUNTIME;
  * @version V1.0
 
 
- * @note: 参数校验注解，需要参数校验的参数前需加此注解
+ *  参数校验注解，需要参数校验的参数前需加此注解
  * Date Date : 2018年09月04日 13:46
  */
 @Retention(RUNTIME)

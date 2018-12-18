@@ -14,7 +14,7 @@ import java.util.List;
  * @version V1.0
 
 
- * @note: ES 通用查询关系
+ *  ES 通用查询关系
  * Date Date : 2018年09月18日 13:46
  */
 @Data

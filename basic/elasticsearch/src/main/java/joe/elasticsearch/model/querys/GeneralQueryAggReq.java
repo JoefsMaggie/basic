@@ -14,7 +14,7 @@ import java.util.List;
  * @version V1.0
 
 
- * @note: 通用查询聚合模型
+ *  通用查询聚合模型
  * Date Date : 2018年09月27日 16:55
  */
 @Data

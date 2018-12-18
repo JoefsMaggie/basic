@@ -31,7 +31,7 @@ import java.util.concurrent.Executors;
  * @version V1.0
 
 
- * @note: ES 帮助类
+ *  ES 帮助类
  * Date Date : 2018年09月20日 14:25
  */
 @Component

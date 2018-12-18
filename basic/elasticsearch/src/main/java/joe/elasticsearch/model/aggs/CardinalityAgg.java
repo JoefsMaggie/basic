@@ -5,7 +5,7 @@ package joe.elasticsearch.model.aggs;
  * @version V1.0
 
 
- * @note: CARDINALITY AGG
+ *  CARDINALITY AGG
  * Date Date : 2018年09月27日 15:42
  */
 public class CardinalityAgg extends BasicAgg<CardinalityAgg> {

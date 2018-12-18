@@ -5,7 +5,7 @@ package joe.elasticsearch.model.aggs;
  * @version V1.0
 
 
- * @note: MIN AGG
+ *  MIN AGG
  * Date Date : 2018年09月27日 15:38
  */
 public class MinAgg extends BasicAgg<MinAgg> {

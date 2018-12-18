@@ -13,7 +13,7 @@ import java.util.List;
  * @version V1.0
 
 
- * @note: 测试用bean
+ *  测试用bean
  * Date Date : 2018年09月03日 13:48
  */
 public class TestBean {

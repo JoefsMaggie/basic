@@ -14,7 +14,7 @@ import java.io.*;
  * @version V1.0
 
 
- * @note: 可重复使用数据包输入流
+ *  可重复使用数据包输入流
  * Date Date : 2018年09月03日 11:57
  */
 @Order(Ordered.HIGHEST_PRECEDENCE + FilterOrder.REPEATABLE)

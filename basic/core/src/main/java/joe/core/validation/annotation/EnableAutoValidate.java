@@ -10,7 +10,7 @@ import java.lang.annotation.*;
  * @version V1.0
 
 
- * @note: 是否启动参数校验，以弃用，以默认开启
+ *  是否启动参数校验，以弃用，以默认开启
  * Date Date : 2018年09月04日 11:36
  */
 @Target(ElementType.TYPE)

@@ -11,7 +11,7 @@ import org.springframework.data.hadoop.hbase.HbaseTemplate;
  * @version V1.0
 
 
- * @note: hbase
+ *  hbase
  * Date Date : 2018年09月20日 9:20
  */
 @Configuration

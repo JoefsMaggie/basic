@@ -15,7 +15,7 @@ import javax.validation.ValidatorFactory;
  * @version V1.0
 
 
- * @note: 参数校验器的配置类
+ *  参数校验器的配置类
  * Date Date : 2018年09月03日 18:09
  */
 @Configuration

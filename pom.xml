@@ -22,6 +22,7 @@
         <module>basic</module>
         <module>solveConflict</module>
         <module>test</module>
+        <module>wechat-order-food-system</module>
     </modules>
 
     <properties>

@@ -23,7 +23,7 @@ import javax.validation.constraints.NotBlank;
  * @version V1.0
 
  1
- * @note: 测试用
+ *  测试用
  * Date Date : 2018年09月14日 16:47
  */
 @Api(hidden = true)

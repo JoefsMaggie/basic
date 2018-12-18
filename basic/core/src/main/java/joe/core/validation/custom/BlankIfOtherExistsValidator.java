@@ -23,7 +23,7 @@ import java.util.stream.Stream;
  * @version V1.0
 
 
- * @note: 参数不为空校验
+ *  参数不为空校验
  * Date Date : 2018年09月07日 13:51
  */
 public class BlankIfOtherExistsValidator<T> implements ConstraintValidator<BlankIfOtherExists, T> {

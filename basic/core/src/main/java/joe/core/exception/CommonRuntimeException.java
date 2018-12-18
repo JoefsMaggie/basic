@@ -5,7 +5,7 @@ package joe.core.exception;
  * @version V1.0
 
 
- * @note: 通用异常
+ *  通用异常
  * Date Date : 2018年09月04日 9:19
  */
 public class CommonRuntimeException extends RuntimeException {
