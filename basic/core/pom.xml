@@ -20,7 +20,7 @@
     </description>
 
     <properties>
-        <jackson>2.9.6</jackson>
+        <jackson>2.9.10.3</jackson>
         <aspectj>1.6.11</aspectj>
         <springfox-swagger2>2.9.2</springfox-swagger2>
     </properties>
