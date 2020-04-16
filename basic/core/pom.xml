@@ -20,7 +20,6 @@
     </description>
 
     <properties>
-        <jackson>2.9.6</jackson>
         <aspectj>1.6.11</aspectj>
         <springfox-swagger2>2.9.2</springfox-swagger2>
     </properties>
@@ -28,9 +27,8 @@
 
     <dependencies>
         <dependency>
-            <groupId>Joe</groupId>
-            <artifactId>joe.config</artifactId>
-            <version>0.0.1</version>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -68,7 +66,6 @@
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
-            <version>${jackson}</version>
         </dependency>
         <!-- E swagger -->
     </dependencies>

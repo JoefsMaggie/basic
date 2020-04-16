@@ -6,7 +6,7 @@ package joe.elasticsearch.model.aggs;
 
 
  *  MAX AGG
- * Date Date : 2018年09月27日 15:38
+ * Date : 2018年09月27日 15:38
  */
 public class MaxAgg extends BasicAgg<MaxAgg> {
 }

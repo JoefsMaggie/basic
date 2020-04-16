@@ -6,12 +6,11 @@ import java.lang.annotation.*;
 
 
 /**
+ * 自定义参数校验注解
+ *
  * @author : Joe joe_fs@sina.com
  * @version V1.0
-
-
- *  自定义参数校验注解
- * Date Date : 2018年09月06日 17:12
+ * Date : 2018年09月06日 17:12
  */
 @Target({ElementType.METHOD, ElementType.FIELD, ElementType.ANNOTATION_TYPE})
 @Retention(RetentionPolicy.RUNTIME)

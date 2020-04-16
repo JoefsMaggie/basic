@@ -7,12 +7,11 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.data.hadoop.hbase.HbaseTemplate;
 
 /**
+ * hbase
+ *
  * @author : Joe joe_fs@sina.com
  * @version V1.0
-
-
- *  hbase
- * Date Date : 2018年09月20日 9:20
+ * Date : 2018年09月20日 9:20
  */
 @Configuration
 public class HbaseClient {

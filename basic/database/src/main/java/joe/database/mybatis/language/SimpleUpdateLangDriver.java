@@ -8,9 +8,10 @@ import java.lang.reflect.Field;
 import java.util.regex.Matcher;
 
 /**
+ * 增强 mybatis update sql 的注解
+ *
  * @author : Joe joe_fs@sina.com
  * @version : V1.0
- * 增强 mybatis update sql 的注解
  * Date: 2018/10/30
  */
 public class SimpleUpdateLangDriver extends XMLLanguageDriver implements ILanguageDriver {
@@ -24,7 +25,7 @@ public class SimpleUpdateLangDriver extends XMLLanguageDriver implements ILangua
             for (Field field : parameterType.getDeclaredFields()) {
                 String tmp = "<if test=\"_field != null\">_column = #{_field}, </if>";
                 sb.append(tmp.replaceAll("_field", field.getName())
-                             .replaceAll("_column", fieldProc(field.getName())));
+                        .replaceAll("_column", fieldProc(field.getName())));
             }
             sb.deleteCharAt(sb.lastIndexOf(","));
             sb.append("</set>");

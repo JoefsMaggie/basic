@@ -6,7 +6,7 @@ package joe.elasticsearch.model.aggs;
 
 
  *  MISSING AGG
- * Date Date : 2018年09月27日 15:44
+ * Date : 2018年09月27日 15:44
  */
 public class MissingAgg extends BasicAgg<MissingAgg> {
 }

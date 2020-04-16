@@ -1,9 +1,11 @@
-package joe.core.filter;
+package joe.core.swagger2;
 
+import joe.core.filter.FilterOrder;
 import org.apache.catalina.connector.RequestFacade;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.core.Ordered;
 import org.springframework.core.annotation.Order;
 
@@ -14,16 +16,15 @@ import javax.servlet.http.HttpServletRequestWrapper;
 import java.io.IOException;
 
 /**
+ * 通过修改 uri 的方式解决 swagger 不能测试问题
+ *
  * @author : Joe joe_fs@sina.com
  * @version : V1.0
-
-
- * 通过修改 uri 的方式解决 swagger 不能测试问题
  * Date : 2018年09月29日 09:40
  */
-//@Component
+@Configuration
 @Order(Ordered.HIGHEST_PRECEDENCE + FilterOrder.REPEATABLE - 1)
-@ConditionalOnProperty(name = "api.enableApi", havingValue = "true")
+@ConditionalOnProperty(name = "swagger.enable", havingValue = "true")
 public class SwaggerRequestFilter implements Filter {
 
     private static final String V2_API_DOCS = "/v2/api-docs";

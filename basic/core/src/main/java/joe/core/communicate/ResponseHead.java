@@ -6,12 +6,11 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import java.io.Serializable;
 
 /**
+ * 返回头信息
+ *
  * @author : Joe joe_fs@sina.com
  * @version V1.0
-
-
- *  返回头信息
- * Date Date : 2018年09月04日 15:59
+ * Date : 2018年09月04日 15:59
  */
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class ResponseHead implements Serializable {

@@ -22,7 +22,7 @@ import java.util.List;
 
 
  *  通用查询模型
- * Date Date : 2018年09月18日 18:44
+ * Date : 2018年09月18日 18:44
  */
 @Data
 @Builder

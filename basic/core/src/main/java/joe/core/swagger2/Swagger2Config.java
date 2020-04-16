@@ -1,6 +1,8 @@
 package joe.core.swagger2;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
+import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import springfox.documentation.builders.ApiInfoBuilder;
@@ -13,15 +15,16 @@ import springfox.documentation.spring.web.plugins.Docket;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 /**
+ * swagger配置生成
+ *
  * @author : Joe joe_fs@sina.com
  * @version V1.0
-
- 2
- *  swagger配置生成
- * Date Date : 2018年09月14日 11:42
+ * Date : 2018年09月14日 11:42
  */
-@Configuration
 @EnableSwagger2
+@Configuration
+@EnableConfigurationProperties(Swagger2Properties.class)
+@ConditionalOnProperty(name = "swagger.enable", havingValue = "true")
 public class Swagger2Config {
 
     private final Swagger2Properties swagger2Properties;
@@ -35,7 +38,7 @@ public class Swagger2Config {
     public Docket createRestApi() {
         return new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(this.apiInfo())
-                .enable(swagger2Properties.isEnableApi())
+                .enable(swagger2Properties.isEnable())
                 .select()
                 .apis(RequestHandlerSelectors.basePackage(swagger2Properties.getPath()))
                 .paths(PathSelectors.any())
@@ -45,8 +48,8 @@ public class Swagger2Config {
 
     private ApiInfo apiInfo() {
         Contact contact = new Contact(swagger2Properties.getName(),
-                                      swagger2Properties.getUrl(),
-                                      swagger2Properties.getEmail());
+                swagger2Properties.getUrl(),
+                swagger2Properties.getEmail());
         return new ApiInfoBuilder()
                 .version(swagger2Properties.getVersion())
                 .title(swagger2Properties.getTitle())

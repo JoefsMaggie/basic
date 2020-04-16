@@ -32,7 +32,7 @@ import java.util.concurrent.Executors;
 
 
  *  ES 帮助类
- * Date Date : 2018年09月20日 14:25
+ * Date : 2018年09月20日 14:25
  */
 @Component
 public class EsHelper {

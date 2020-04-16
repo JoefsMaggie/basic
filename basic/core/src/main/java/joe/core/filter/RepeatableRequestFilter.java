@@ -10,12 +10,11 @@ import javax.servlet.http.HttpServletRequestWrapper;
 import java.io.*;
 
 /**
+ * 可重复使用数据包输入流
+ *
  * @author : Joe
  * @version V1.0
-
-
- *  可重复使用数据包输入流
- * Date Date : 2018年09月03日 11:57
+ * Date : 2018年09月03日 11:57
  */
 @Order(Ordered.HIGHEST_PRECEDENCE + FilterOrder.REPEATABLE)
 public class RepeatableRequestFilter implements Filter {

@@ -10,7 +10,7 @@ import java.util.Map;
 
 
  *  ES 返回模型
- * Date Date : 2018年09月27日 16:14
+ * Date : 2018年09月27日 16:14
  */
 public class EsRes {
     /**

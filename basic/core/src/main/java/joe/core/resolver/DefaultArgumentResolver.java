@@ -21,12 +21,11 @@ import java.util.Map;
 import java.util.stream.Stream;
 
 /**
+ * RequestMapping 方法参数注入
+ *
  * @author : Joe joe_fs@sina.com
  * @version V1.0
-
-
- *  RequestMapping 方法参数注入
- * Date Date : 2018年09月04日 13:46
+ * Date : 2018年09月04日 13:46
  */
 public class DefaultArgumentResolver implements HandlerMethodArgumentResolver {
 
@@ -90,8 +89,8 @@ public class DefaultArgumentResolver implements HandlerMethodArgumentResolver {
         Annotation[] parameterAnnotations = parameter.getParameterAnnotations();
         String springPkgName = ResponseBody.class.getPackage().getName();
         return Stream.of(parameterAnnotations)
-                     .anyMatch(parameterAnnotation ->
-                                       parameterAnnotation.annotationType().getName().startsWith(springPkgName));
+                .anyMatch(parameterAnnotation ->
+                        parameterAnnotation.annotationType().getName().startsWith(springPkgName));
     }
 
     /**
@@ -111,7 +110,7 @@ public class DefaultArgumentResolver implements HandlerMethodArgumentResolver {
                                   WebDataBinderFactory binderFactory) throws Exception {
 
         return argumentResolverCache.get(parameter)
-                                    .resolveArgument(parameter, mavContainer, webRequest, binderFactory);
+                .resolveArgument(parameter, mavContainer, webRequest, binderFactory);
     }
 
 }

@@ -12,16 +12,14 @@ import java.util.Set;
 import java.util.stream.Collectors;
 
 /**
+ * 校验器异常
+ *
  * @author : Joe joe_fs@sina.com
  * @version V1.0
-
-
- *  校验器
- * Date Date : 2018年09月04日 10:02
+ * Date : 2018年09月04日 10:02
  */
 public class ValidationException extends RuntimeException {
     private List<ValidationDetail> details = new ArrayList<>(10);
-
 
     public static class ValidationDetail {
         private String field;

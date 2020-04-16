@@ -22,7 +22,7 @@ import java.util.Map;
 
 
  *  ES TransportClient 生成
- * Date Date : 2018年09月03日 15:02
+ * Date : 2018年09月03日 15:02
  */
 @Configuration
 public class EsClient {

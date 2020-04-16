@@ -6,7 +6,7 @@ package joe.elasticsearch.model.aggs;
 
 
  *  CARDINALITY AGG
- * Date Date : 2018年09月27日 15:42
+ * Date : 2018年09月27日 15:42
  */
 public class CardinalityAgg extends BasicAgg<CardinalityAgg> {
 }

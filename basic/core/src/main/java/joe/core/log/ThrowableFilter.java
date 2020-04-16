@@ -12,12 +12,11 @@ import java.util.Objects;
 import java.util.Set;
 
 /**
+ * 错误日志过滤器
+ *
  * @author : Joe
  * @version V1.0
-
-
- *  错误日志过滤器
- * Date Date : 2018年09月03日 11:57
+ * Date : 2018年09月03日 11:57
  */
 public class ThrowableFilter extends TurboFilter {
 

@@ -1,12 +1,11 @@
 package joe.core.exception;
 
 /**
+ * 通用异常
+ *
  * @author : Joe
  * @version V1.0
-
-
- *  通用异常
- * Date Date : 2018年09月04日 9:19
+ * Date : 2018年09月04日 9:19
  */
 public class CommonRuntimeException extends RuntimeException {
     private static final long serialVersionUID = 6358803642758332780L;

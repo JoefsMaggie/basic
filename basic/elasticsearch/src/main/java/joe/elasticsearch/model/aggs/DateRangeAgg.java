@@ -6,7 +6,7 @@ package joe.elasticsearch.model.aggs;
 
 
  *  DATE_RANGE AGG
- * Date Date : 2018年09月27日 15:47
+ * Date : 2018年09月27日 15:47
  */
 public class DateRangeAgg extends BasicAgg<DateRangeAgg> {
 }

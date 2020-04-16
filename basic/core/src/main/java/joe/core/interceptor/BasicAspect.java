@@ -17,9 +17,10 @@ import java.lang.reflect.Method;
 import java.util.Objects;
 
 /**
+ * 基础切面拦截
+ *
  * @author : Joe joe_fs@sina.com
  * @version : V1.0
- * 基础切面拦截
  * Date: 2018/10/30
  */
 @Aspect
@@ -51,7 +52,7 @@ public class BasicAspect {
             }
             Method method = target.getClass().getMethod(methodName, parameterTypes);
             LOGGER.info("\nrequest controller: {}, \nrequest controller method: {}, \nmethod processing time：{} ms",
-                        target.getClass().getName(), method.getName(), clock.getTime());
+                    target.getClass().getName(), method.getName(), clock.getTime());
             return proceed;
         } catch (Throwable throwable) {
             LOGGER.error("异常：", throwable);

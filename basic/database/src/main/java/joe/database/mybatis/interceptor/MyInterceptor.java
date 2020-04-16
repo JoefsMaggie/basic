@@ -7,9 +7,10 @@ import org.apache.ibatis.plugin.*;
 import java.util.Properties;
 
 /**
+ * mybatis 拦截器
+ *
  * @author : Joe joe_fs@sina.com
  * @version : V1.0
- * mybatis 拦截器
  * Date: 2018/10/30
  */
 @Intercepts({@Signature(

@@ -8,9 +8,10 @@ import java.lang.reflect.Field;
 import java.util.regex.Matcher;
 
 /**
+ * 增强 mybatis select sql 的注解
+ *
  * @author : Joe joe_fs@sina.com
  * @version : V1.0
- * 增强 mybatis select sql 的注解
  * Date: 2018/10/30
  */
 public class SimpleSelectLangDriver extends XMLLanguageDriver implements ILanguageDriver {
@@ -23,7 +24,7 @@ public class SimpleSelectLangDriver extends XMLLanguageDriver implements ILangua
             for (Field field : parameterType.getDeclaredFields()) {
                 String tmp = "<if test=\"_field != null\">AND _column = #{_field}</if>";
                 sb.append(tmp.replaceAll("_field", field.getName())
-                             .replaceAll("_column", fieldProc(field.getName())));
+                        .replaceAll("_column", fieldProc(field.getName())));
             }
             sb.append("</where>");
             script = matcher.replaceAll(sb.toString());

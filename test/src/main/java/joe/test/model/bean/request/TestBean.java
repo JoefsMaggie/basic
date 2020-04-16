@@ -14,7 +14,7 @@ import java.util.List;
 
 
  *  测试用bean
- * Date Date : 2018年09月03日 13:48
+ * Date : 2018年09月03日 13:48
  */
 public class TestBean {
     @Length(min = 1, max = 5)

@@ -15,7 +15,7 @@ import java.util.List;
 
 
  *  ES 通用查询关系
- * Date Date : 2018年09月18日 13:46
+ * Date : 2018年09月18日 13:46
  */
 @Data
 @Builder

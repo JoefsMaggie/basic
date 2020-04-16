@@ -4,6 +4,7 @@ import com.alibaba.druid.pool.DruidDataSource;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
@@ -11,12 +12,14 @@ import org.springframework.context.annotation.Primary;
 import java.sql.SQLException;
 
 /**
+ * mybatis 数据源
+ *
  * @author : Joe joe_fs@sina.com
  * @version : V1.0
- * mybatis 数据源
  * Date: 2018/10/29
  */
 @Configuration
+@EnableConfigurationProperties(DataSourceProperties.class)
 public class DataSourceConfig {
     private Logger LOG = LoggerFactory.getLogger(DataSourceConfig.class);
 

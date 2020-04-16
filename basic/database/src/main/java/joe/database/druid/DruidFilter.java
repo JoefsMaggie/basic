@@ -6,9 +6,10 @@ import javax.servlet.annotation.WebFilter;
 import javax.servlet.annotation.WebInitParam;
 
 /**
+ * druid filter
+ *
  * @author : Joe joe_fs@sina.com
  * @version : V1.0
- * druid filter
  * Date: 2018/10/30
  */
 @WebFilter(filterName = "druidWebStatFilter", urlPatterns = "/*",

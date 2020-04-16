@@ -20,12 +20,11 @@ import java.util.List;
 import java.util.Map;
 
 /**
+ * json工具类，基于jackson
+ *
  * @author : Joe joe_fs@sina.com
  * @version V1.0
-
-
- *  json工具类，基于jackson
- * Date Date : 2018年09月04日 10:02
+ * Date : 2018年09月04日 10:02
  */
 public abstract class Jackson {
     private static ObjectMapper objectMapper = new ObjectMapper();
@@ -111,8 +110,8 @@ public abstract class Jackson {
         return objectMapper.convertValue(o, Map.class);
     }
 
-    public static JavaType getParametricType(Class<?> paramtricClass,Class<?> elementClass){
-        return objectMapper.getTypeFactory().constructParametricType(paramtricClass,elementClass);
+    public static JavaType getParametricType(Class<?> paramtricClass, Class<?> elementClass) {
+        return objectMapper.getTypeFactory().constructParametricType(paramtricClass, elementClass);
     }
 
     public static <T> T fromJson(String json, Class<T> klass, Class<?> elementClass) {

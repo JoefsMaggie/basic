@@ -6,7 +6,7 @@ package joe.elasticsearch.model.aggs;
 
 
  *  TERMS AGG
- * Date Date : 2018年09月27日 15:45
+ * Date : 2018年09月27日 15:45
  */
 public class TermsAgg extends BasicAgg<TermsAgg> {
 }

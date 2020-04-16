@@ -6,7 +6,7 @@ package joe.elasticsearch.model.aggs;
 
 
  *  SUM AGG
- * Date Date : 2018年09月27日 15:41
+ * Date : 2018年09月27日 15:41
  */
 public class SumAgg extends BasicAgg<SumAgg> {
 }

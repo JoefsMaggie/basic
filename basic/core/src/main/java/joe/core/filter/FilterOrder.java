@@ -1,12 +1,11 @@
 package joe.core.filter;
 
 /**
+ * HttpServletRequest filter的顺序
+ *
  * @author : Joe
  * @version V1.0
-
-
- *  HttpServletRequest filter的顺序
- * Date Date : 2018年09月03日 11:57
+ * Date : 2018年09月03日 11:57
  */
 public interface FilterOrder {
 

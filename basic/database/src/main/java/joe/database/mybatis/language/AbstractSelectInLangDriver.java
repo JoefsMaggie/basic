@@ -18,12 +18,8 @@ public abstract class AbstractSelectInLangDriver extends XMLLanguageDriver imple
     @Override
     public SqlSource createSqlSource(Configuration configuration, String script, Class<?> parameterType) {
         Matcher matcher = pattern.matcher(script);
-        String collection = "list";
-        if (parameterType.isArray()) {
-            collection = "array";
-        }
         if (matcher.find()) {
-            String replacement = "(<foreach collection=\"" + collection + "\" item=\"_item\" separator=\",\">#{_item}</foreach>)";
+            String replacement = "(<foreach collection=\"$1\" item=\"_item\" separator=\",\">#{_item}</foreach>)";
             script = matcher.replaceAll(replacement);
         }
         script = "<script>" + script + "</script>";

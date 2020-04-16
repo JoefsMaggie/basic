@@ -22,12 +22,11 @@ import java.util.List;
 import java.util.Objects;
 
 /**
+ * 安全校验
+ *
  * @author : Joe joe_fs@sina.com
  * @version V1.0
-
-
- *  安全校验
- * Date Date : 2018年09月04日 10:46
+ * Date : 2018年09月04日 10:46
  */
 @Aspect
 @Order()
@@ -73,7 +72,7 @@ public class ControllerArgsAspect {
             Object proceed = pjp.proceed();
             clock.stop(); // 计时结束
             LOGGER.info("\nrequest controller: {}, \nrequest controller method: {}, \nmethod processing time：{} ms",
-                        target.getClass().getName(), method.getName(), clock.getTime());
+                    target.getClass().getName(), method.getName(), clock.getTime());
 
             return proceed;
         } catch (Throwable throwable) {

@@ -5,12 +5,11 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
 
 /**
+ * ApplicationContext 工具类
+ *
  * @author : Joe joe_fs@sina.com
  * @version V1.0
-
-
- *  ApplicationContext 工具类
- * Date Date : 2018年09月04日 13:46
+ * Date : 2018年09月04日 13:46
  */
 public class AppUtils implements ApplicationContextAware {
 

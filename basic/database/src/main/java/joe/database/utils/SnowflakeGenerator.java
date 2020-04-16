@@ -9,9 +9,10 @@ import java.net.InetAddress;
 import java.net.UnknownHostException;
 
 /**
+ * snowflake 算法生成 ID
+ *
  * @author : Joe joe_fs@sina.com
  * @version : V1.0
- * snowflake 算法生成 ID
  * Date: 2018/10/31
  */
 @Component

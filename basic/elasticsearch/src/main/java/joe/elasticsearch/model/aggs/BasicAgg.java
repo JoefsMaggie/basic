@@ -15,7 +15,7 @@ import javax.validation.constraints.NotNull;
 
 
  *  基础聚合模型
- * Date Date : 2018年09月25日 09:56
+ * Date : 2018年09月25日 09:56
  */
 @Data
 @ApiModel

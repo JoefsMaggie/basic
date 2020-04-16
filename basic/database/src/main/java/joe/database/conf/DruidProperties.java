@@ -2,16 +2,15 @@ package joe.database.conf;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
-import org.springframework.stereotype.Component;
 
 /**
+ * druid 配置属性类
+ *
  * @author : Joe joe_fs@sina.com
  * @version : V1.0
- * druid 配置属性类
  * Date: 2018/10/31
  */
 @Data
-@Component
 @ConfigurationProperties(prefix = DruidProperties.DRUID_PREFIX)
 public class DruidProperties {
     static final String DRUID_PREFIX = "db.druid";

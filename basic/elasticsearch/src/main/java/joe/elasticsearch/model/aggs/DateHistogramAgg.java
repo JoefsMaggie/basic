@@ -6,7 +6,7 @@ package joe.elasticsearch.model.aggs;
 
 
  *  DATE_HISTOGRAM AGG
- * Date Date : 2018年09月27日 15:46
+ * Date : 2018年09月27日 15:46
  */
 public class DateHistogramAgg extends BasicAgg<DateHistogramAgg> {
 }

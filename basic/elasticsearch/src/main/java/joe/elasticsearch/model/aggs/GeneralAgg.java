@@ -18,7 +18,7 @@ import java.util.List;
 
 
  *  通用聚合模型
- * Date Date : 2018年09月27日 15:52
+ * Date : 2018年09月27日 15:52
  */
 @Getter
 @Setter

@@ -15,7 +15,7 @@ import java.util.List;
 
 
  *  通用查询聚合模型
- * Date Date : 2018年09月27日 16:55
+ * Date : 2018年09月27日 16:55
  */
 @Data
 @ApiModel()

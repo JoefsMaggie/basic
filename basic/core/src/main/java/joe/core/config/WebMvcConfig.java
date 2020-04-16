@@ -20,12 +20,11 @@ import java.util.List;
 import java.util.Objects;
 
 /**
+ * 参数解析器
+ *
  * @author : Joe joe_fs@sina.com
  * @version V1.0
-
-
- *  参数解析器
- * Date Date : 2018年09月04日 13:46
+ * Date : 2018年09月04日 13:46
  */
 @Configuration
 public class WebMvcConfig implements WebMvcConfigurer {

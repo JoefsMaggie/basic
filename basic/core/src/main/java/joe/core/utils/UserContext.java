@@ -6,12 +6,11 @@ import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
 
 /**
+ * 获取请求报文，结合filter来解决请求报文不能重复读取的问题
+ *
  * @author : Joe joe_fs@sina.com
  * @version V1.0
-
-
- *  获取请求报文，结合filter来解决请求报文不能重复读取的问题
- * Date Date : 2018年09月04日 13:46
+ * Date : 2018年09月04日 13:46
  */
 public class UserContext {
 

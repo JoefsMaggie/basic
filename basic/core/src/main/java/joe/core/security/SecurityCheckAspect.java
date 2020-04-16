@@ -1,9 +1,6 @@
 package joe.core.security;
 
-import com.ctrip.framework.apollo.model.ConfigChangeEvent;
-import com.ctrip.framework.apollo.spring.annotation.ApolloConfigChangeListener;
 import com.fasterxml.jackson.databind.JsonNode;
-import joe.config.apollo.ApolloConfigListener;
 import joe.core.exception.CommonRuntimeException;
 import joe.core.utils.UserContext;
 import org.apache.commons.lang3.StringUtils;
@@ -21,32 +18,21 @@ import java.util.Objects;
 
 
 /**
+ * 安全校验，对 key 做校验
+ *
  * @author : Joe joe_fs@sina.com
  * @version V1.0
-
-
- *  安全校验，对 key 做校验
- * Date Date : 2018年09月05日 11:36
+ * Date : 2018年09月05日 11:36
  */
 @Aspect
 @Component
 @Order(Ordered.HIGHEST_PRECEDENCE + 500)
-public class SecurityCheckAspect implements ApolloConfigListener {
+public class SecurityCheckAspect {
 
     private final static Logger LOGGER = LoggerFactory.getLogger(SecurityCheckAspect.class);
-    private static final String SECURITY_KEY = "security.key";
 
     @Value("${security.key:}")
     private String secret;
-
-    @ApolloConfigChangeListener
-    private void listener(ConfigChangeEvent changeEvent) {
-        if (changeEvent.isChanged(SECURITY_KEY)) {
-            String newValue = changeEvent.getChange(SECURITY_KEY).getNewValue();
-            LOGGER.info("{} is change to {}", SECURITY_KEY, newValue);
-            this.secret = newValue;
-        }
-    }
 
     /**
      * 切面定义

@@ -11,12 +11,11 @@ import org.apache.commons.lang3.exception.ExceptionUtils;
 import java.util.Set;
 
 /**
+ * 异常工具类
+ *
  * @author : Joe joe_fs@sina.com
  * @version V1.0
-
-
- *  异常工具类
- * Date Date : 2018年09月04日 10:02
+ * Date : 2018年09月04日 10:02
  */
 public class ExceptionUtil {
     public static String getSimpleStackTrace(Throwable throwable) {

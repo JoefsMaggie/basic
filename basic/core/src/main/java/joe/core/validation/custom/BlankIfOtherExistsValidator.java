@@ -1,8 +1,8 @@
 package joe.core.validation.custom;
 
 import com.fasterxml.jackson.databind.JsonNode;
-import joe.core.utils.UserContext;
 import joe.core.utils.Jackson;
+import joe.core.utils.UserContext;
 import org.apache.commons.collections.CollectionUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.hibernate.validator.internal.engine.constraintvalidation.ConstraintValidatorContextImpl;
@@ -19,12 +19,11 @@ import java.util.function.Predicate;
 import java.util.stream.Stream;
 
 /**
+ * 参数不为空校验
+ *
  * @author : Joe joe_fs@sina.com
  * @version V1.0
-
-
- *  参数不为空校验
- * Date Date : 2018年09月07日 13:51
+ * Date : 2018年09月07日 13:51
  */
 public class BlankIfOtherExistsValidator<T> implements ConstraintValidator<BlankIfOtherExists, T> {
     private BlankIfOtherExists blankIfOtherExists;
@@ -58,7 +57,7 @@ public class BlankIfOtherExistsValidator<T> implements ConstraintValidator<Blank
                 Set<String> keys = jsonToMap.keySet();
                 String trueKey = keys.stream().findFirst().orElseThrow(() -> new IllegalArgumentException("参数异常"));
                 List<Map<String, Object>> list = (List) jsonToMap.get(trueKey);
-                return check(list.get(Integer.valueOf(arg.substring(index + 1, arg.indexOf("]")))), paths);
+                return check(list.get(Integer.parseInt(arg.substring(index + 1, arg.indexOf("]")))), paths);
             } else {
                 return check(jsonToMap, paths);
             }

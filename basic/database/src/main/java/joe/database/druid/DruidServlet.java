@@ -6,9 +6,10 @@ import javax.servlet.annotation.WebInitParam;
 import javax.servlet.annotation.WebServlet;
 
 /**
+ * druid servlet
+ *
  * @author : Joe joe_fs@sina.com
  * @version : V1.0
- * druid servlet
  * Date: 2018/10/30
  */
 @WebServlet(urlPatterns = "/druid/*",

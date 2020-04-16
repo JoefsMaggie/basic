@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Configuration;
 
 
  *  参数校验需要的 bean 的配置类
- * Date Date : 2018年09月04日 11:35
+ * Date : 2018年09月04日 11:35
  */
 @Configuration
 public class ValidatorAspectConfiguration {

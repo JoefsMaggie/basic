@@ -8,9 +8,10 @@ import java.lang.reflect.Field;
 import java.util.regex.Matcher;
 
 /**
+ * 增强 mybatis insert sql 的注解
+ *
  * @author : Joe joe_fs@sina.com
  * @version : V1.0
- * 增强 mybatis insert sql 的注解
  * Date: 2018/10/30
  */
 public class SimpleInsertLangDriver extends XMLLanguageDriver implements ILanguageDriver {

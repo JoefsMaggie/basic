@@ -24,7 +24,7 @@ import javax.validation.constraints.NotBlank;
 
  1
  *  测试用
- * Date Date : 2018年09月14日 16:47
+ * Date : 2018年09月14日 16:47
  */
 @Api(hidden = true)
 @ApiIgnore

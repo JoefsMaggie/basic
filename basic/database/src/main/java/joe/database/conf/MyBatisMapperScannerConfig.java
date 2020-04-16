@@ -6,12 +6,13 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;
 
 /**
+ * 配置 mybatis 的扫描路径
+ *
  * @author : Joe joe_fs@sina.com
  * @version : V1.0
- * 配置 mybatis 的扫描路径
  * Date: 2018/10/29
  */
-//@Component
+@Component
 @AutoConfigureAfter(MybatisConfig.class)
 public class MyBatisMapperScannerConfig {
     @Bean

@@ -13,12 +13,11 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /**
+ * 全局异常处理器
+ *
  * @author : Joe
  * @version V1.0
-
-
- *  全局异常处理器
- * Date Date : 2018年09月04日 9:50
+ * Date : 2018年09月04日 9:50
  */
 @ControllerAdvice
 public class GlobalExceptionHandler {

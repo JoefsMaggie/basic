@@ -6,12 +6,11 @@ import java.util.Collections;
 import java.util.Map;
 
 /**
+ * 单值返回类型
+ *
  * @author : Joe joe_fs@sina.com
  * @version V1.0
-
-
- *  单值返回类型
- * Date Date : 2018年09月04日 17:02
+ * Date : 2018年09月04日 17:02
  */
 public class OneKeyResponse<V> {
     private Map<String, Object> oneKeyMap = Collections.emptyMap();

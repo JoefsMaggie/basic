@@ -11,7 +11,7 @@ import java.util.Map;
 
 
  *  hbase 配置信息类
- * Date Date : 2018年09月20日 9:24
+ * Date : 2018年09月20日 9:24
  */
 @Component
 @ConfigurationProperties("hbase")

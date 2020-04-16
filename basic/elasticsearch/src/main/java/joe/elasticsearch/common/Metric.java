@@ -9,7 +9,7 @@ import org.apache.commons.lang3.StringUtils;
 
 
  *  数据度量指标
- * Date Date : 2018年09月07日 10:22
+ * Date : 2018年09月07日 10:22
  */
 public enum Metric {
     /**

@@ -6,7 +6,7 @@ package joe.elasticsearch.model.aggs;
 
 
  *  AVG AGG
- * Date Date : 2018年09月27日 15:39
+ * Date : 2018年09月27日 15:39
  */
 public class AvgAgg extends BasicAgg<AvgAgg> {
 }

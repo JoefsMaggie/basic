@@ -8,12 +8,11 @@ import org.springframework.web.method.support.ModelAndViewContainer;
 import javax.servlet.http.HttpServletRequest;
 
 /**
+ * 参数解析
+ *
  * @author : Joe joe_fs@sina.com
  * @version V1.0
-
-
- *  参数解析
- * Date Date : 2018年09月04日 13:46
+ * Date : 2018年09月04日 13:46
  */
 public interface ArgumentResolver {
 

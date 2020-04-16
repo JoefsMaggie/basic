@@ -8,12 +8,11 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
 /**
+ * ES 需要的一些配置
+ *
  * @author : Joe
  * @version V1.0
-
-
- *  ES 需要的一些配置
- * Date Date : 2018年09月03日 16:54
+ * Date : 2018年09月03日 16:54
  */
 @Component
 @EnableApolloConfig(EsConfig.NAMESPACE)

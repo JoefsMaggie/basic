@@ -6,9 +6,10 @@ import java.util.Date;
 import java.util.Random;
 
 /**
+ * snowflake 算法生成 ID
+ *
  * @author : Joe joe_fs@sina.com
  * @version : V1.0
- * snowflake 算法生成 ID
  * Date: 2018/10/31
  * <p>
  * Twitter_Snowflake <br>

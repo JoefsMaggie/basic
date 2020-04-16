@@ -1,20 +1,23 @@
 package joe.core.communicate;
 
-import com.fasterxml.jackson.annotation.*;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonInclude;
+import com.fasterxml.jackson.annotation.JsonProperty;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
+import lombok.Data;
 
 import java.io.Serializable;
 import java.util.Objects;
 
 /**
+ * 返回数据模型
+ *
  * @author : Joe joe_fs@sina.com
  * @version V1.0
-
-
- *  返回数据模型
- * Date Date : 2018年09月04日 15:53
+ * Date : 2018年09月04日 15:53
  */
+@Data
 @ApiModel(description = "返回数据模型")
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class Response<T> implements Serializable {
@@ -173,50 +176,5 @@ public class Response<T> implements Serializable {
         } catch (InstantiationException | IllegalAccessException e) {
             throw new IllegalStateException("实例化失败", e);
         }
-    }
-
-    public ResponseHead getHead() {
-        return head;
-    }
-
-    public Response<T> setHead(ResponseHead head) {
-        this.head = head;
-        return this;
-    }
-
-    public String getReturnCode() {
-        return returnCode;
-    }
-
-    public Response<T> setReturnCode(String returnCode) {
-        this.returnCode = returnCode;
-        return this;
-    }
-
-    public String getReturnMsg() {
-        return returnMsg;
-    }
-
-    public Response<T> setReturnMsg(String returnMsg) {
-        this.returnMsg = returnMsg;
-        return this;
-    }
-
-    public T getBody() {
-        return body;
-    }
-
-    public Response<T> setBody(T body) {
-        this.body = body;
-        return this;
-    }
-
-    public Object[] getErrorParams() {
-        return errorParams;
-    }
-
-    public Response<T> setErrorParams(Object[] errorParams) {
-        this.errorParams = errorParams;
-        return this;
     }
 }

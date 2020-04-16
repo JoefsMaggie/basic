@@ -6,7 +6,7 @@ package joe.elasticsearch.model.aggs;
 
 
  *  VALUE_COUNT AGG
- * Date Date : 2018年09月27日 15:38
+ * Date : 2018年09月27日 15:38
  */
 public class CountAgg extends BasicAgg<CountAgg> {
 }
