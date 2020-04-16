@@ -15,7 +15,9 @@ public interface ILanguageDriver {
 
     Pattern pattern = Pattern.compile("\\(#\\{(\\w+)}\\)");
 
-    String fieldProc(String fieldName);
+    default String fieldProc(String fieldName) {
+        return lowerCamelToUnderscore(fieldName);
+    }
 
     default String lowerCamelToUnderscore(String fieldName) {
         return CaseFormat.LOWER_CAMEL.to(CaseFormat.LOWER_UNDERSCORE, fieldName);

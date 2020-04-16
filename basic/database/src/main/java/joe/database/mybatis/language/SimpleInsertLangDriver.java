@@ -14,7 +14,8 @@ import java.util.regex.Matcher;
  * @version : V1.0
  * Date: 2018/10/30
  */
-public class SimpleInsertLangDriver extends XMLLanguageDriver implements ILanguageDriver {
+public class SimpleInsertLangDriver extends AbstractInsertLangDriver {
+
     @Override
     public SqlSource createSqlSource(Configuration configuration, String script, Class<?> parameterType) {
         Matcher matcher = pattern.matcher(script);
@@ -35,8 +36,4 @@ public class SimpleInsertLangDriver extends XMLLanguageDriver implements ILangua
         return super.createSqlSource(configuration, script, parameterType);
     }
 
-    @Override
-    public String fieldProc(String fieldName) {
-        return lowerCamelToUnderscore(fieldName);
-    }
 }

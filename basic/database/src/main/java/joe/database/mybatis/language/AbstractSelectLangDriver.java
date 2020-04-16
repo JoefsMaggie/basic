@@ -2,7 +2,6 @@ package joe.database.mybatis.language;
 
 import joe.database.mybatis.language.annotation.Ignore;
 import joe.database.mybatis.language.annotation.IgnoreSqlType;
-import lombok.val;
 import org.apache.ibatis.mapping.SqlSource;
 import org.apache.ibatis.scripting.xmltags.XMLLanguageDriver;
 import org.apache.ibatis.session.Configuration;
@@ -30,7 +29,7 @@ public abstract class AbstractSelectLangDriver extends XMLLanguageDriver impleme
             StringBuilder sb = new StringBuilder();
             sb.append("<where>");
             for (Field field : parameterType.getDeclaredFields()) {
-                final val ignore = field.getAnnotation(Ignore.class);
+                var ignore = field.getAnnotation(Ignore.class);
                 if (Objects.nonNull(ignore)
                         && (Arrays.stream(ignore.value())
                                   .anyMatch(sqlType -> sqlType.equals(IgnoreSqlType.SELECT) || sqlType.equals(IgnoreSqlType.ALL)))) {

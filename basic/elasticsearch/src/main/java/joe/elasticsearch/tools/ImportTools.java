@@ -7,7 +7,6 @@ import joe.database.utils.IdGenerator;
 import joe.database.utils.SnowflakeGenerator;
 import joe.elasticsearch.client.conf.EsClient;
 import joe.elasticsearch.client.conf.EsConfig;
-import lombok.val;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.tuple.Pair;
 import org.elasticsearch.action.bulk.BulkRequestBuilder;
@@ -26,15 +25,15 @@ import java.nio.file.attribute.FileAttribute;
 import java.nio.file.attribute.PosixFilePermission;
 import java.nio.file.attribute.PosixFilePermissions;
 import java.time.LocalDateTime;
-import java.util.*;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Semaphore;
 
 /**
+ * ES 数据导入工具
+ *
  * @author : Joe joe_fs@sina.com
  * @version : V1.0
- * ES 数据导入工具
  * Date: 2018/10/31
  */
 public class ImportTools {
@@ -233,11 +232,11 @@ public class ImportTools {
     private void bulkData(ImportTools importTools) {
         for (int j = 0; j < loop; j++) {
             final BulkRequestBuilder bulkRequest = client.prepareBulk();
-            final val start = System.currentTimeMillis();
+            var start = System.currentTimeMillis();
             for (int i = 0; i < dataCount; i++) {
                 importTools.insert(bulkRequest);
             }
-            final val end = System.currentTimeMillis();
+            var end = System.currentTimeMillis();
             System.out.println("use time 1 : " + (end - start));
             System.out.println("data count : " + bulkRequest.request().requests().size());
             bulkRequest.get();

@@ -1,7 +1,6 @@
 package joe.database.aop;
 
 import lombok.extern.slf4j.Slf4j;
-import lombok.val;
 import org.apache.commons.lang3.StringUtils;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.Aspect;
@@ -33,7 +32,7 @@ public class SaveUpdateAspect {
     @Before("savePointcut()")
     public void save(JoinPoint point) {
         Arrays.stream(point.getArgs()).forEach(arg -> {
-            final val date = new Date();
+            var date = new Date();
             Arrays.stream(arg.getClass().getDeclaredMethods())
                   .filter(method -> StringUtils.startsWith(method.getName(), "set"))
                   .filter(method -> StringUtils.containsIgnoreCase(method.getName(), "createTime")
@@ -58,7 +57,7 @@ public class SaveUpdateAspect {
     @Before("updatePointcut()")
     public void update(JoinPoint point) {
         Arrays.stream(point.getArgs()).forEach(arg -> {
-            final val date = new Date();
+            var date = new Date();
             Arrays.stream(arg.getClass().getDeclaredMethods())
                   .filter(method -> StringUtils.startsWith(method.getName(), "set"))
                   .filter(method -> StringUtils.containsIgnoreCase(method.getName(), "updateTime")

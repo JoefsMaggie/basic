@@ -2,7 +2,6 @@ package joe.elasticsearch;
 
 import joe.database.utils.SnowflakeFactory;
 import joe.database.utils.SnowflakeGenerator;
-import lombok.val;
 import org.junit.Test;
 
 import java.net.InetAddress;
@@ -16,9 +15,10 @@ import java.util.concurrent.ThreadLocalRandom;
 import java.util.stream.Stream;
 
 /**
+ * Random 性能测试
+ *
  * @author : Joe joe_fs@sina.com
  * @version : V1.0
- * Random 性能测试
  * Date: 2018/10/31
  */
 public class RandomTest {
@@ -51,9 +51,9 @@ public class RandomTest {
         SnowflakeGenerator snowflakeFactory = new SnowflakeGenerator(1, 1);
         long start = System.currentTimeMillis();
         Stream.iterate(0, n -> n + 1)
-              .limit(100000)
-              .parallel()
-              .forEach(integer -> System.out.println(snowflakeFactory.newId()));
+                .limit(100000)
+                .parallel()
+                .forEach(integer -> System.out.println(snowflakeFactory.newId()));
         System.out.println(System.currentTimeMillis() - start);
         long id = snowflakeFactory.newId();
         System.out.println(id);
@@ -90,7 +90,7 @@ public class RandomTest {
         }
         System.out.println(tmp);
 
-        val random = new Random();
+        var random = new Random();
         for (int i = 0; i < loop; i++) {
             System.out.println(random.nextInt(10));
         }
