@@ -20,7 +20,7 @@
         <gson>2.8.2</gson>
         <guava>23.0</guava>
         <apollo>1.1.0</apollo>
-        <log4j-core>2.8.2</log4j-core>
+        <log4j-core>2.15.0</log4j-core>
         <commons-lang3>3.7</commons-lang3>
         <slf4j-log4j12>1.7.21</slf4j-log4j12>
     </properties>
