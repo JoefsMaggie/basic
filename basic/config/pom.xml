@@ -9,12 +9,12 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>joe.config</artifactId>
+    <artifactId>config</artifactId>
 
     <dependencies>
         <dependency>
-            <groupId>Joe</groupId>
-            <artifactId>joe.configSDK</artifactId>
+            <groupId>fs.joe</groupId>
+            <artifactId>configSDK</artifactId>
             <version>0.0.1</version>
             <exclusions>
                 <exclusion>

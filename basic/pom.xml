@@ -21,10 +21,10 @@
     <modules>
         <module>core</module>
         <module>database</module>
+        <module>config</module>
+        <module>configSDK</module>
 <!--        <module>elasticsearch</module>-->
 <!--        <module>hbase</module>-->
-<!--        <module>configSDK</module>-->
-<!--        <module>config</module>-->
     </modules>
 
     <properties>
