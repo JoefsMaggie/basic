@@ -2,17 +2,17 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <groupId>Joe</groupId>
+        <groupId>fs.joe</groupId>
         <artifactId>joe</artifactId>
         <version>0.0.1</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>joe.basic</artifactId>
+    <artifactId>basic</artifactId>
     <version>0.0.1</version>
     <packaging>pom</packaging>
 
-    <name>joe.basic</name>
+    <name>basic</name>
     <description>
         基础包
         包含一些公共包，如数据库包，ES 包， Hbase 包等

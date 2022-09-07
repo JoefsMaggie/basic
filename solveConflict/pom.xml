@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
-    <groupId>Joe</groupId>
-    <artifactId>joe.solve-conflict.hbase-client</artifactId>
+    <groupId>fs.joe</groupId>
+    <artifactId>solve-conflict-hbase-client</artifactId>
     <version>0.0.1</version>
 
     <name>solveConflict</name>

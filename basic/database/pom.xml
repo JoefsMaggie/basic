@@ -2,17 +2,17 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <groupId>Joe</groupId>
-        <artifactId>joe.basic</artifactId>
+        <groupId>fs.joe</groupId>
+        <artifactId>basic</artifactId>
         <version>0.0.1</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>joe.database</artifactId>
+    <artifactId>database</artifactId>
     <version>0.0.1</version>
     <packaging>jar</packaging>
 
-    <name>joe.database</name>
+    <name>database</name>
     <description>
         数据库模块
         此包负责数据库配置的加载，连接池的生成，以及一些数据库需要使用的工具

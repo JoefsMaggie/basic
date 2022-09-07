@@ -7,8 +7,8 @@
         <groupId>Joe</groupId>
         <version>0.0.1</version>
     </parent>-->
-    <groupId>Joe</groupId>
-    <artifactId>joe.configSDK</artifactId>
+    <groupId>fs.joe</groupId>
+    <artifactId>configSDK</artifactId>
     <version>0.0.1</version>
     <modelVersion>4.0.0</modelVersion>
 
