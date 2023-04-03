@@ -20,7 +20,17 @@ import java.util.regex.Matcher;
  */
 public abstract class AbstractSelectLangDriver extends XMLLanguageDriver implements ILanguageDriver {
 
-    private static final String FIELD_IF = "<if test=\"_field != null\"> AND _column = #{_field} </if>";
+    private static final String FIELD_IF = "<if test='_field != null'> \r\n" + 
+        "AND \r\n" + 
+        "<choose> \r\n" +
+        "<when test='_field.contains(\",\")> \r\n" +
+        "<foreach collection='_field.split(\",\")' item='_item' open='_column IN (' separator=',' close=')'>#{_item}</forecah> \r\n" +
+        "</when> \r\n" +
+        "<otherwise> \r\n" +
+        "_column = #{_field} \r\n" +
+        "</otherwise> \r\n" +
+        "</choose> \r\n" +
+        "</if>";
 
     @Override
     public SqlSource createSqlSource(Configuration configuration, String script, Class<?> parameterType) {
